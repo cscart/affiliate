@@ -1,0 +1,1543 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>affiliate</id>
+    <name>Affiliate</name>
+    <description><![CDATA[<i><strong>Deprecated</strong>. To be excluded from v. 4.1.1. Learn more in the <a href="http://forum.cs-cart.com/topic/33444-some-add-ons-to-be-excluded-from-cs-cart-411/">official announcement</a>.</i>]]></description>
+    <version>1.0</version>
+    <priority>700</priority>
+    <position>0</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <translations>
+        <item for="name" lang="fr">Affiliation</item>
+        <item for="name" lang="da">Partner</item>
+        <item for="name" lang="el">Συνεργάτης</item>
+        <item for="name" lang="it">Affiliazione</item>
+        <item for="name" lang="ro">Afiliat</item>
+        <item for="name" lang="ru">Партнерство</item>
+        <item for="name" lang="sl">Partnerski program</item>
+        <item for="name" lang="zh">联盟</item>
+        <item for="description" lang="ru"><![CDATA[<i><strong>Устаревший модуль</strong>. Данный модуль будет исключен из базовой поставки, начиная с версии 4.1.1. Узнайте больше в <a href="http://forum.cs-cart.com/topic/33444-some-add-ons-to-be-excluded-from-cs-cart-411/">официальном анонсе</a>.</i>]]></item>
+        <item for="description" lang="zh">切换并允许配置联盟系统</item>
+    </translations>
+    <language_variables>
+        <item id="affiliate.new_banner" lang="en">New banner</item>
+        <item id="affiliate.new_banner" lang="ru">Новый баннер</item>
+        <item id="affiliate.new_banner" lang="zh">新的横幅</item>
+        <item id="affiliate.new_banner" lang="it">Nuovo banner</item>
+        <item id="affiliate.new_banner" lang="el">Νέο banner</item>
+        <item id="affiliate.new_banner" lang="bg">Нов банер</item>
+        <item id="affiliate.new_banner" lang="ro">Banner nou</item>
+        <item id="affiliate.new_banner" lang="sl">Nova pasica</item>
+        <item id="affiliate.new_banner" lang="da">ny banner</item>
+        <item id="affiliate.new_banner" lang="fr">Nouvelle bannière</item>
+        <item id="affiliate.new_banner" lang="no">Ny banner</item>
+
+        <item id="affiliate.editing_banner" lang="en">Editing banner</item>
+        <item id="affiliate.editing_banner" lang="ru">Редактирование баннера</item>
+        <item id="affiliate.editing_banner" lang="zh">编辑横幅</item>
+        <item id="affiliate.editing_banner" lang="it">Modifica banner</item>
+        <item id="affiliate.editing_banner" lang="el">Επεξεργασία banner</item>
+        <item id="affiliate.editing_banner" lang="bg">Редактиране на банер</item>
+        <item id="affiliate.editing_banner" lang="ro">Editare banner</item>
+        <item id="affiliate.editing_banner" lang="sl">Urejanje pasice</item>
+        <item id="affiliate.editing_banner" lang="da">redigere banner</item>
+        <item id="affiliate.editing_banner" lang="fr">Édition de la bannière</item>
+        <item id="affiliate.editing_banner" lang="no">Redigerer banner</item>
+
+        <item id="add_affiliate" lang="en">Add affiliate</item>
+        <item id="add_affiliate" lang="ru">Добавить партнера</item>
+        <item id="add_affiliate" lang="it">Aggiungi affiliato</item>
+        <item id="add_affiliate" lang="el">Προσθήκη ανταποδοτικού μάρκετινγκ</item>
+        <item id="add_affiliate" lang="bg">Добави афилейт</item>
+        <item id="add_affiliate" lang="ro">Adăugați afiliat</item>
+        <item id="add_affiliate" lang="da">Tilføj affiliate</item>
+        <item id="add_affiliate" lang="no">Legg til Tilslutning</item>
+
+        <item id="affiliate" lang="en">Affiliate</item>
+        <item id="affiliate" lang="ru">Партнерство</item>
+        <item id="affiliate" lang="it">Affiliato</item>
+        <item id="affiliate" lang="el">Πρόγραμμα ανταπόδοσης (Affiliate)</item>
+        <item id="affiliate" lang="bg">Партньор</item>
+        <item id="affiliate" lang="ro">Afiliat</item>
+        <item id="affiliate" lang="sl">Partnerski program</item>
+        <item id="affiliate" lang="da">Partner</item>
+        <item id="affiliate" lang="fr">Affiliation</item>
+        <item id="affiliate" lang="es">Afiliado</item>
+
+        <item id="affiliate_information" lang="en">Affiliate information</item>
+        <item id="affiliate_information" lang="ru">Информация о партнере</item>
+        <item id="affiliate_information" lang="it">Informazioni affiliato</item>
+        <item id="affiliate_information" lang="el">Πληροφορίες προγράμματος ανταπόδωσης (Affiliate)</item>
+        <item id="affiliate_information" lang="bg">Партньори - информация</item>
+        <item id="affiliate_information" lang="ro">Informații affiliat</item>
+        <item id="affiliate_information" lang="sl">Informacije partnerskega programa</item>
+        <item id="affiliate_information" lang="da">Partner information</item>
+        <item id="affiliate_information" lang="fr">Informations affiliation</item>
+        <item id="affiliate_information" lang="es">Información de afiliado</item>
+        <item id="affiliate_information" lang="no">Affiliate informasjon</item>
+
+        <item id="affiliate_payouts" lang="en">Affiliate payouts</item>
+        <item id="affiliate_payouts" lang="ru">Партнерские выплаты</item>
+        <item id="affiliate_payouts" lang="it">Pagamenti affiliati</item>
+        <item id="affiliate_payouts" lang="el">Πληρωμές προγράμματος ανταπόδωσης (Affiliate)</item>
+        <item id="affiliate_payouts" lang="bg">Партньорски изплащания</item>
+        <item id="affiliate_payouts" lang="ro">Plățile affiliate-ului</item>
+        <item id="affiliate_payouts" lang="sl">Izplačila partnerskega programa</item>
+        <item id="affiliate_payouts" lang="da">Partner udbetaling</item>
+        <item id="affiliate_payouts" lang="fr">Versements affilié</item>
+        <item id="affiliate_payouts" lang="es">Liquidaciones de afiliados</item>
+        <item id="affiliate_payouts" lang="no">Affiliate utbetalinger</item>
+
+        <item id="affiliate_plan" lang="en">Affiliate plan</item>
+        <item id="affiliate_plan" lang="ru">Партнёрский план</item>
+        <item id="affiliate_plan" lang="it">Piano affiliato</item>
+        <item id="affiliate_plan" lang="el">Πλάνο προγράμματος ανταπόδωσης (Affiliate)</item>
+        <item id="affiliate_plan" lang="bg">Партньорски план</item>
+        <item id="affiliate_plan" lang="ro">Planul affiliate-ului</item>
+        <item id="affiliate_plan" lang="sl">Plan partnerskega programa</item>
+        <item id="affiliate_plan" lang="da">Partner plan</item>
+        <item id="affiliate_plan" lang="fr">Plan d'affiliation</item>
+        <item id="affiliate_plan" lang="es">Plan de afiliado</item>
+
+        <item id="affiliate_partners_menu_description" lang="en">Manage your affiliate partners.</item>
+        <item id="affiliate_partners_menu_description" lang="ru">Управление партнерами.</item>
+        <item id="affiliate_partners_menu_description" lang="it">Gestisci i tuoi partner affiliati</item>
+        <item id="affiliate_partners_menu_description" lang="el">Διαχείριση των συνεργαζόμενων συνεργατών σας.</item>
+        <item id="affiliate_partners_menu_description" lang="bg">Управление на партньори.</item>
+
+        <item id="affiliate_agree_to_terms_conditions" lang="en">By clicking the \"[button_name]\" button below, you acknowledge that you agree to and understand the terms and conditions of our affiliate program.</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="ru">Нажимая кнопку \"[button_name]\", Вы подтверждаете, что понимаете и соглашаетесь с условиями нашей партнерской программы.</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="it">Cliccando sul bottone \"[button_name]\" sottostante, dichiari di aver compreso ed accettato le condizioni del nostro programma di affiliazione.</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="el">Πατώντας το \"[button_name]\" δηλώνετε ότι συμφωνείτε και καταλαβαίνετε τους όρους και συνθήκες του προγράμματος ανταπόδοσης (Affiliate).</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="bg">Като натиснете \"[button_name]\" бутона по-долу, вие потвърждавате, че сте съгласни и разбирате условията и сроковете на нашата партньорска програма.</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="ro">Făcând click pe butonul \"[button_name]\" , confirmă faptul că ați luat la cunoștință și sunteți în temă cu termenii și condițiile impuse de programul nostru de affiliate.</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="sl">S klikom na \"[button_name]\" spodnji gumb, potrjujete, da razumete in sprejemate pogoje ter okoliščine našega partnerskega programa</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="da">Ved at klikke på \"[button_name]\" knappen nedenfor, accepterer du, at du accepterer og forstå de vilkår og betingelser for vores partner program.</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="fr">En cliquant sur le bouton \"S'enregistrer\" ci-dessous, vous déclarez accepter les conditions de notre programme d'affiliation.</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="es">Haciendo click en \"[button_name]\" botón de abajo, usted reconoce que entiende y está de acuerdo con nuestras condiciones y términos del programa de afiliados.</item>
+        <item id="affiliate_agree_to_terms_conditions" lang="no">Ved å klikke på \"[button_name]\" knappen nedenfor, bekrefter du at du godtar og forstår vilkårene for vårt partnerprogram.</item>
+
+        <item id="affilate_banners_manager_menu_description" lang="en">Create banners that your affiliates can then place at their websites.</item>
+        <item id="affilate_banners_manager_menu_description" lang="ru">Создание баннеров, которые ваши партнеры смогут размещать на своих сайтах.</item>
+        <item id="affilate_banners_manager_menu_description" lang="it">Crea banner che i tuoi affiliati possono mostrare sui loro siti internet.</item>
+        <item id="affilate_banners_manager_menu_description" lang="el">Δημιουργεία γραφιστικών banners που οι συνεργάτες σας μπορούν να προσθέσουν στις ιστοσελίδες τους.</item>
+        <item id="affilate_banners_manager_menu_description" lang="bg">Създаване на банери, които партньорите могат да поставят в техните уебсайтове.</item>
+
+        <item id="affiliates_menu_description" lang="en">List of store affiliates, registered users with an affiliate account.</item>
+        <item id="affiliates_menu_description" lang="ru">Список партнеров магазина —   зарегистрированных пользователей с учетной записью партнера.</item>
+        <item id="affiliates_menu_description" lang="it">Elenco degli affiliati del negozio, utenti registrati con un account affiliato.</item>
+        <item id="affiliates_menu_description" lang="el">Λίστα των συνεργαζόμενων καταστημάτων, εγεγραμμένοι χρήστες με λογαριασμό διαχειριστή.</item>
+        <item id="affiliates_menu_description" lang="bg">Списък на партньори и регистрирани потребители с партньорски акаунти.</item>
+
+        <item id="affiliate_text_letter_footer" lang="en">Thank you for taking part in our affiliate program.</item>
+        <item id="affiliate_text_letter_footer" lang="ru">Спасибо, что принимаете участие в нашей партнерской программе.</item>
+        <item id="affiliate_text_letter_footer" lang="it">Grazie per aver aderito al programma affiliati.</item>
+        <item id="affiliate_text_letter_footer" lang="el">Ευχαριστούμε που πήρατε μέρος στο πρόγραμμα ανταπόδωσης (Affiliate).</item>
+        <item id="affiliate_text_letter_footer" lang="bg">Благодаря Ви, че сте част от нашата партньорска програма.</item>
+        <item id="affiliate_text_letter_footer" lang="ro">Vă mulțumim pentru alegerea sistemului nostru de affilitate.</item>
+        <item id="affiliate_text_letter_footer" lang="sl">Zahvaljujemo se vam za sodelovanje v našem partnerskem programu.</item>
+        <item id="affiliate_text_letter_footer" lang="da">Tak fordi du er en del af vores partner system</item>
+        <item id="affiliate_text_letter_footer" lang="fr">Merci de prendre part à notre programme d'affiliation.</item>
+        <item id="affiliate_text_letter_footer" lang="es">Gracias por forma parte de nuestro programa de afiliados.</item>
+        <item id="affiliate_text_letter_footer" lang="no">Takk for at du tar del i vårt partnerprogram.</item>
+
+        <item id="affiliate_tree" lang="en">Affiliate tree</item>
+        <item id="affiliate_tree" lang="ru">Дерево партнерства</item>
+        <item id="affiliate_tree" lang="it">Albero affiliato</item>
+        <item id="affiliate_tree" lang="el">Δένδρο προγράμματος ανταπόδωσης (Affiliate)</item>
+        <item id="affiliate_tree" lang="bg">Партньорска структура</item>
+        <item id="affiliate_tree" lang="ro">Arbore affiliat</item>
+        <item id="affiliate_tree" lang="sl">Drevo partnerskega programa</item>
+        <item id="affiliate_tree" lang="da">Partner tre</item>
+        <item id="affiliate_tree" lang="fr">Arbre des affiliés</item>
+        <item id="affiliate_tree" lang="es">Árbol de afiliados</item>
+        <item id="affiliate_tree" lang="no">Affiliate treet</item>
+
+        <item id="text_banners" lang="en">Text banners</item>
+        <item id="text_banners" lang="ru">Текстовые баннеры</item>
+        <item id="text_banners" lang="zh">文字横幅</item>
+        <item id="text_banners" lang="it">Testo dei banner</item>
+        <item id="text_banners" lang="el">Βanners κειμένου</item>
+        <item id="text_banners" lang="bg">Текст банери</item>
+        <item id="text_banners" lang="ro">Text banere</item>
+        <item id="text_banners" lang="sl">Tekstovne oglasne pasice</item>
+        <item id="text_banners" lang="no">Tekst bannere</item>
+        <item id="text_banners" lang="da">Tekst banner</item>
+        <item id="text_banners" lang="fr">Bannières texte</item>
+        <item id="text_banners" lang="es">Banners de texto</item>
+        <item id="graphic_banners" lang="en">Graphic banners</item>
+        <item id="graphic_banners" lang="ru">Графические баннеры</item>  
+        <item id="graphic_banners" lang="zh">图表横幅</item>  
+        <item id="graphic_banners" lang="it">Banner grafici</item>  
+        <item id="graphic_banners" lang="el">Banners γραφικών</item>  
+        <item id="graphic_banners" lang="bg">Текстови банери</item>  
+        <item id="graphic_banners" lang="ro">Banere grafice</item>  
+        <item id="graphic_banners" lang="sl">Grafične oglasne pasice</item>  
+        <item id="graphic_banners" lang="no">Grafiske bannere</item>  
+        <item id="graphic_banners" lang="da">Grafisk banner</item>  
+        <item id="graphic_banners" lang="fr">Bannières graphiques</item>
+        <item id="text_no_banners_found" lang="en">No banners found</item>
+        <item id="text_no_banners_found" lang="ru">Баннеры не найдены</item>
+        <item id="text_no_banners_found" lang="zh">没有发现横幅</item>
+        <item id="text_no_banners_found" lang="it">Nessun banner trovato</item>
+        <item id="text_no_banners_found" lang="el">Δεν βρέθηκαν banners</item>
+        <item id="text_no_banners_found" lang="bg">Няма намерени банери</item>
+        <item id="text_no_banners_found" lang="ro">Nici un banner găsit</item>
+        <item id="text_no_banners_found" lang="sl">Ne najdem oglasnih pasic</item>
+        <item id="text_no_banners_found" lang="da">Ingen bannere fundet</item>
+        <item id="text_no_banners_found" lang="fr">Aucune bannière trouvée</item>
+        <item id="text_no_banners_found" lang="es">Ningún anuncio encontrado</item>
+
+        <item id="payout" lang="en">Payout</item>
+        <item id="payout" lang="ru">Выплата</item>
+        <item id="payout" lang="zh">支付</item>
+        <item id="payout" lang="it">Pagamento</item>
+        <item id="payout" lang="el">Πληρωμή</item>
+        <item id="payout" lang="bg">Плащане</item>
+        <item id="payout" lang="ro">Profil</item>
+        <item id="payout" lang="sl">Izplačilo</item>
+        <item id="payout" lang="da">Udbetaling</item>
+        <item id="payout" lang="fr">Versement</item>
+        <item id="payout" lang="es">Liquidación</item>
+        <item id="payout" lang="no">Utbetaling</item>
+
+        <item id="payouts" lang="en">Payouts</item>
+        <item id="payouts" lang="ru">Выплаты</item>
+        <item id="payouts" lang="zh">支付</item>
+        <item id="payouts" lang="it">Pagamenti</item>
+        <item id="payouts" lang="el">Πληρωμές</item>
+        <item id="payouts" lang="bg">Плащания</item>
+        <item id="payouts" lang="ro">Profituri</item>
+        <item id="payouts" lang="sl">Izplačila</item>
+        <item id="payouts" lang="da">Udbetaling</item>
+        <item id="payouts" lang="fr">Versements</item>
+        <item id="payouts" lang="es">Liquidaciones</item>
+        <item id="payouts" lang="no">Utbetalinger</item>
+
+        <item id="payout_click" lang="en">Click</item>
+        <item id="payout_click" lang="ru">Клик</item>
+        <item id="payout_click" lang="zh">点击</item>
+        <item id="payout_click" lang="el">Κλικ</item>
+        <item id="payout_click" lang="bg">Кликнете</item>
+        <item id="payout_click" lang="sl">Klik</item>
+        <item id="payout_click" lang="da">klik</item>
+        <item id="payout_click" lang="fr">Clic</item>
+        <item id="payout_click" lang="no">Klikk</item>
+
+        <item id="payout_init_balance" lang="en">Initial balance</item>
+        <item id="payout_init_balance" lang="ru">Исходный баланс</item>
+        <item id="payout_init_balance" lang="zh">期初余额</item>
+        <item id="payout_init_balance" lang="it">Situazione iniziale</item>
+        <item id="payout_init_balance" lang="el">Αρχικό υπόλοιπο</item>
+        <item id="payout_init_balance" lang="bg">Начален баланс</item>
+        <item id="payout_init_balance" lang="ro">Echilibru inițial</item>
+        <item id="payout_init_balance" lang="sl">Prvotno stanje</item>
+        <item id="payout_init_balance" lang="da">første balance</item>
+        <item id="payout_init_balance" lang="fr">Balance initiale</item>
+        <item id="payout_init_balance" lang="es">Balance inicial</item>
+        <item id="payout_init_balance" lang="no">Åpningssaldo</item>
+
+        <item id="payout_sales" lang="en">Payout sales</item>
+        <item id="payout_sales" lang="ru">Продажи</item>
+        <item id="payout_sales" lang="zh">支付给销售</item>
+        <item id="payout_sales" lang="it">Pagamento vendite</item>
+        <item id="payout_sales" lang="el">Πληρωμή των πωλήσεων</item>
+        <item id="payout_sales" lang="bg">Изплащане на продажбите</item>
+        <item id="payout_sales" lang="ro">Profitul vânzărilor</item>
+        <item id="payout_sales" lang="sl">Izplačilo prodaje</item>
+        <item id="payout_sales" lang="da">Udbetaling salg</item>
+        <item id="payout_sales" lang="fr">Gain de vente</item>
+        <item id="payout_sales" lang="no">Utbetaling salg</item>
+
+        <item id="payout_show" lang="en">Show banner</item>
+        <item id="payout_show" lang="ru">Показ баннера</item>
+        <item id="payout_show" lang="zh">显示横幅</item>
+        <item id="payout_show" lang="it">Mostra banner</item>
+        <item id="payout_show" lang="el">Προβολή banner</item>
+        <item id="payout_show" lang="bg">Покажи банер</item>
+        <item id="payout_show" lang="ro">Arată baner</item>
+        <item id="payout_show" lang="sl">Prikaži oglasno pasico</item>
+        <item id="payout_show" lang="da">Vis banner</item>
+        <item id="payout_show" lang="fr">Montrer bannière</item>
+        <item id="payout_show" lang="es">Mostrar banner</item>
+        <item id="payout_show" lang="no">Vis banner</item>
+
+        <item id="payout_use_coupon" lang="en">Use coupon</item>
+        <item id="payout_use_coupon" lang="ru">Использование купона</item>
+        <item id="payout_use_coupon" lang="zh">使用优惠券</item>
+        <item id="payout_use_coupon" lang="it">Usa coupon</item>
+        <item id="payout_use_coupon" lang="el">Χρήση εκπτωτικού κουπονιού</item>
+        <item id="payout_use_coupon" lang="bg">Използвайте талон</item>
+        <item id="payout_use_coupon" lang="ro">Folosește cuponul</item>
+        <item id="payout_use_coupon" lang="sl">Uporabi kupon</item>
+        <item id="payout_use_coupon" lang="da">Brug kupon</item>
+        <item id="payout_use_coupon" lang="fr">Utiliser coupon</item>
+        <item id="payout_use_coupon" lang="es">Usar cupón</item>
+        <item id="payout_use_coupon" lang="no">Bruk kupong</item>
+
+        <item id="product_banners" lang="en">Product banners</item>
+        <item id="product_banners" lang="ru">Баннеры товаров</item>
+        <item id="product_banners" lang="zh">产品横幅</item>
+        <item id="product_banners" lang="it">Banner prodotto</item>
+        <item id="product_banners" lang="el">Προϊόντα banners</item>
+        <item id="product_banners" lang="bg">Продукт банери</item>
+        <item id="product_banners" lang="ro">Banerele produsului</item>
+        <item id="product_banners" lang="sl">Oglasne pasice proizvodov</item>
+        <item id="product_banners" lang="da">Produkt banner</item>
+        <item id="product_banners" lang="fr">Bannières de produits</item>
+        <item id="product_banners" lang="es">Banners de producto</item>
+        <item id="product_banners" lang="no">Produktbannere</item>
+
+        <item id="sale_vs_click" lang="en">Percentage of sales and banner clicks</item>
+        <item id="sale_vs_click" lang="ru">Соотношение продаж и баннерных кликов в процентах</item>
+        <item id="sale_vs_click" lang="zh">销售和横幅点击比例</item>
+        <item id="sale_vs_click" lang="it">Percentuale delle vendite e click dei banner</item>
+        <item id="sale_vs_click" lang="el">Ποσοστό των πωλήσεων και των κλίκς των banner</item>
+        <item id="sale_vs_click" lang="bg">Процент от продажбите и кликове на банери</item>
+        <item id="sale_vs_click" lang="ro">Procentajul vânzărilor și click-uri pe baner</item>
+        <item id="sale_vs_click" lang="sl">Odstotek prodaj in klikov na oglasne pasice</item>
+        <item id="sale_vs_click" lang="da">Procentdel af salget og banner klik</item>
+        <item id="sale_vs_click" lang="fr">Pourcentage des ventes et clics de bannière</item>
+        <item id="sale_vs_click" lang="es">Porcentaje de ventas y visitas en banners</item>
+        <item id="sale_vs_click" lang="no">Prosentandel av salg og banner klikk</item>
+
+        <item id="click_vs_show" lang="en">Percentage of banner clicks and banner shows</item>
+        <item id="click_vs_show" lang="ru">Соотношение кликов и показов баннеров в процентах</item>
+        <item id="click_vs_show" lang="zh">横幅的点击和展示百分比</item>
+        <item id="click_vs_show" lang="it">Percentuale dei click e delle visualizzazioni dei banner</item>
+        <item id="click_vs_show" lang="el">Ποσοστό κλικ banner και προβολής banner</item>
+        <item id="click_vs_show" lang="bg">Процент на кликове и показвания на банери</item>
+        <item id="click_vs_show" lang="ro">Procentul de click-uri pe bannere și afișările bannerelor</item>
+        <item id="click_vs_show" lang="sl">Odstotek klikov in ogledov oglasne pasice</item>
+        <item id="click_vs_show" lang="da">Procentdel af banner klik og banner viser</item>
+        <item id="click_vs_show" lang="fr">Pourcentage des clics et affichages de bannières</item>
+        <item id="click_vs_show" lang="es">Porcentaje de anuncios mostrados y anuncios visitados</item>
+        <item id="click_vs_show" lang="no">Andel bannerklikk og bannervisninger</item>        
+
+        <item lang="en" id="aff_cant_create_group">Group cannot be modified</item>
+        <item lang="en" id="aff_cant_create_banner">Banner cannot be modified</item>
+        <item lang="en" id="aff_object_cant_delete">Object cannot be deleted</item>
+        <item lang="en" id="block_affiliate">Affiliate</item>
+        <item lang="en" id="block_affiliate_description">Affiliate profile access</item>
+        <item lang="en" id="text_aff_no_actions_found">No actions found</item>
+        <item lang="en" id="aff_successfully_registered">Successfully registered as affiliate</item>
+        <item lang="en" id="privileges.manage_affiliate">Manage affiliate system</item>
+        <item lang="ru" id="aff_cant_create_banner">Баннер не может быть изменен</item>
+        <item lang="ru" id="aff_cant_create_group">Группа не может быть изменена</item>
+        <item lang="ru" id="aff_object_cant_delete">Объект не может быть удалён</item>
+        <item lang="ru" id="block_affiliate">Партнер</item>
+        <item lang="ru" id="block_affiliate_description">Доступ к учетной записи партнера</item>
+        <item lang="ru" id="text_aff_no_actions_found">Ни одного действия не найдено</item>
+        <item lang="ru" id="aff_successfully_registered">Вы успешно зарегистрированы как партнер</item>
+        <item lang="ru" id="privileges.manage_affiliate">Управление партнерской системой</item>
+        
+        <item lang="zh" id="aff_cant_create_group">组不可以修改</item>
+        <item lang="zh" id="aff_cant_create_banner">横幅不可以修改</item>
+        <item lang="zh" id="aff_object_cant_delete">对象不可以删除</item>
+        <item lang="zh" id="block_affiliate">联盟</item>
+        <item lang="zh" id="block_affiliate_description">联盟资料访问</item>
+        <item lang="en" id="deleted_banners">Deleted banners</item>
+        <item lang="en" id="undeleted_banners">Not deleted banners</item>
+        <item lang="en" id="error_no_data">No valid data received</item>
+        <item lang="en" id="banner_deleted">The banner has been deleted successfully.</item>
+        <item lang="en" id="group_for_category">Group for categories</item>
+        <item lang="en" id="group_for_product">Group for products</item>
+        <item lang="en" id="deleted_product_groups">Deleted product groups</item>
+        <item lang="en" id="undeleted_product_groups">Not deleted product groups</item>
+        <item lang="en" id="error_payout_gt_balance">The payout cannot exceed the affiliate balance.</item>
+        <item lang="en" id="error_account_not_approved">Your affiliate account was not approved. Please contact store administration.</item>
+        <item lang="en" id="error_account_declined">Your affiliate account was declined. Please contact store administration.</item>
+        <item lang="en" id="text_partner_create_profile">First you should receive an email message with approval, then you can log in.</item>
+        <item lang="en" id="affiliates">Affiliates</item>
+        <item lang="en" id="affiliate_code">Affiliate code</item>
+        <item lang="en" id="affiliate_commissions">Affiliate commissions</item>
+        <item lang="en" id="related_actions">Related actions</item>
+        <item lang="en" id="disapprove_commissions">Disapprove commissions</item>
+        <item lang="en" id="delete_commissions">Delete commissions</item>
+        <item lang="en" id="approve_commissions">Approve commissions</item>
+        <item lang="en" id="count">Count</item>
+        <item lang="en" id="sum">Sum</item>
+        <item lang="en" id="avg">Avg</item>
+        <item lang="en" id="plan">Plan</item>
+        <item lang="en" id="show_zero_actions">Show zero actions</item>
+        <item lang="en" id="not_show">Not show</item>
+        <item lang="en" id="only_zero_actions">Only zero actions</item>
+        <item lang="en" id="affiliate_settings">Affiliate system settings</item>
+        <item lang="en" id="plans">Plans</item>
+        <item lang="en" id="method_based_selling_price">Commission calculation based on product price</item>
+        <item lang="en" id="coupon_commission_overide_all">Coupon commission should override all the others</item>
+        <item lang="en" id="add_selected">Add selected</item>
+        <item lang="en" id="add_commissions_multi_affiliates">Add commission(s) to multi tier affiliates</item>
+        <item lang="en" id="add_commissions">Add commissions</item>
+        <item lang="en" id="add_coupons">Add coupon(s)</item>
+        <item lang="en" id="new_plan">New plan</item>
+        <item lang="en" id="editing_plan">Editing plan</item>
+        <item lang="en" id="product_group">Product group</item>
+        <item lang="en" id="refresh_banner">Refresh banner</item>
+        <item lang="en" id="align">Align</item>
+        <item lang="en" id="center">Center</item>
+        <item lang="en" id="show_border">Show border</item>
+        <item lang="en" id="show_title">Show title</item>
+        <item lang="en" id="show_url">Show URL</item>
+        <item lang="en" id="new_window">New window</item>
+        <item lang="en" id="affiliate_tiers_tree">Affiliate tiers tree</item>
+        <item lang="en" id="without_plan">Without plan</item>
+        <item lang="en" id="personal_information">Personal information</item>
+        <item lang="en" id="edit_affiliate">Edit affiliate</item>
+        <item lang="en" id="viewing_affiliate">Viewing affiliate</item>
+        <item lang="en" id="checking_min_payment">Payments with minimum release level only</item>
+        <item lang="en" id="checking_payment_period">Due payments only</item>
+        <item lang="en" id="amount_of_approved_actions">Amount of approved actions</item>
+        <item lang="en" id="amount_of_awaiting_approval_actions">Amount of actions awaiting approval</item>
+        <item lang="en" id="date_of_last_payment">Date of the previous payment</item>
+        <item lang="en" id="pay_affiliates">Pay affiliates</item>
+        <item lang="en" id="last_payout">Last payout</item>
+        <item lang="en" id="avg_payout">Avg payout</item>
+        <item lang="en" id="view_history">View history</item>
+        <item lang="en" id="accounting_history">Accounting History</item>
+        <item lang="en" id="add_group_for_categories">Add group for categories</item>
+        <item lang="en" id="add_group_for_products">Add group for products</item>
+        <item lang="en" id="add_url_group">Add URL group</item>
+        <item lang="en" id="email_approved_notification_header">Thank you for becoming a registered affiliate of [company]. Your account has been activated.</item>
+        <item lang="en" id="email_subj_approved">Your account was approved.</item>
+        <item lang="en" id="email_declined_notification_header">Your account was declined.</item>
+        <item lang="en" id="email_subj_declined">Your account was declined.</item>
+        <item lang="en" id="top">Top</item>
+        <item lang="en" id="bottom">Bottom</item>
+        <item lang="en" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">If enabled, coupon commission cancels the other commissions.</item>
+        <item lang="en" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">If the select box contains only the 'None' value, it means that product groups are not specified.</item>
+        <item lang="en" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">If the select box contains only the 'None' value, it means that product groups are not specified.</item>
+        <item lang="en" id="affilate_banners_manager">Banners</item>
+        <item lang="en" id="affiliate_partners">Affiliates</item>
+
+        <item lang="bg" id="deleted_banners">Изтриване банери</item>
+        <item lang="bg" id="error_no_data">Няма валидни данни</item>
+        <item lang="bg" id="banner_deleted">Банерът е изтрит успешно.</item>
+        <item lang="bg" id="group_for_category">Група за категории</item>
+        <item lang="bg" id="group_for_product">Група за продукти</item>
+        <item lang="bg" id="deleted_product_groups">Изтриване продуктови групи</item>
+        <item lang="bg" id="error_payout_gt_balance">Изплащането не може да надвишава афилейт баланса.</item>
+        <item lang="bg" id="error_account_not_approved">Вашата сметка не бе одобрена. Моля, свържете се с администратора магазин.</item>
+        <item lang="bg" id="error_account_declined">Вашият профил е блокиран. Моля, обърнете се към администрацията на магазина.</item>
+        <item lang="bg" id="text_partner_create_profile">Първо трябва да получите съобщение с одобрение, след което можете да влезете.</item>
+        <item lang="bg" id="affiliates">Партньори</item>
+        <item lang="bg" id="affiliate_code">Партньорски код</item>
+        <item lang="bg" id="affiliate_commissions">Партньорски комисионни</item>
+        <item lang="bg" id="related_actions">Свързани действия</item>
+        <item lang="bg" id="disapprove_commissions">Неодобрени комисионни</item>
+        <item lang="bg" id="delete_commissions">Изтриване комисиони</item>
+        <item lang="bg" id="approve_commissions">Одобрени комисионни</item>
+        <item lang="bg" id="count">Брой</item>
+        <item lang="bg" id="sum">Сума</item>
+        <item lang="bg" id="plan">план</item>
+        <item lang="bg" id="show_zero_actions">Покажи нулеви действия</item>
+        <item lang="bg" id="not_show">да не се показва</item>
+        <item lang="bg" id="only_zero_actions">Само нулеви действия</item>
+        <item lang="bg" id="affiliate_settings">Настройки на партньорската система</item>
+        <item lang="bg" id="plans">Планове</item>
+        <item lang="bg" id="method_based_selling_price">Комисионната се изчислява въз основа цената на продукта</item>
+        <item lang="bg" id="coupon_commission_overide_all">Талонът за отстъпка трябва да замени всички останали</item>
+        <item lang="bg" id="add_selected">Добави избраните</item>
+        <item lang="bg" id="add_commissions_multi_affiliates">Добави комисионни на multi tier афилейти</item>
+        <item lang="bg" id="add_commissions">Добави комисионни</item>
+        <item lang="bg" id="add_coupons">Добави купон</item>
+        <item lang="bg" id="new_plan">Нов план</item>
+        <item lang="bg" id="editing_plan">Редактиране на план</item>
+        <item lang="bg" id="product_group">Продуктова група</item>
+        <item lang="bg" id="refresh_banner">Обнови банер</item>
+        <item lang="bg" id="align">Подреждане</item>
+        <item lang="bg" id="center">Център</item>
+        <item lang="bg" id="show_border">Покажи граница</item>
+        <item lang="bg" id="show_title">Покажи заглавие</item>
+        <item lang="bg" id="show_url">Покажи URL</item>
+        <item lang="bg" id="new_window">Нов прозорец</item>
+        <item lang="bg" id="affiliate_tiers_tree">Партньорска структура</item>
+        <item lang="bg" id="without_plan">Без план</item>
+        <item lang="bg" id="personal_information">Лична информация</item>
+        <item lang="bg" id="edit_affiliate">Редактиране на афилейт</item>
+        <item lang="bg" id="viewing_affiliate">Преглед на партньор</item>
+        <item lang="bg" id="checking_min_payment">Плащания само с минимално ниво</item>
+        <item lang="bg" id="checking_payment_period">Само дължимите плащания</item>
+        <item lang="bg" id="amount_of_approved_actions">Брой на одобрените действия</item>
+        <item lang="bg" id="amount_of_awaiting_approval_actions">Брой на действията, които очакват одобрение</item>
+        <item lang="bg" id="date_of_last_payment">Дата на предходно плащане</item>
+        <item lang="bg" id="pay_affiliates">Плати affiliates</item>
+        <item lang="bg" id="last_payout">Последно изплащане</item>
+        <item lang="bg" id="avg_payout">Нормално изплащане</item>
+        <item lang="bg" id="view_history">Преглед на историята</item>
+        <item lang="bg" id="accounting_history">История на акаунта</item>
+        <item lang="bg" id="add_group_for_categories">Добави група за категории</item>
+        <item lang="bg" id="add_group_for_products">Добави група за продукти</item>
+        <item lang="bg" id="add_url_group">Добави URL група </item>
+        <item lang="bg" id="email_approved_notification_header">Благодарим Ви, че се регистрирахте като афилейт на [company]. Вашият акаунт е активиран.</item>
+        <item lang="bg" id="email_subj_approved">Вашият акаунт е одобрен</item>
+        <item lang="bg" id="email_declined_notification_header">Вашият акаунт е отхвърлен</item>
+        <item lang="bg" id="email_subj_declined">Вашият акаунт е отхвърлен</item>
+        <item lang="bg" id="top">Горна част</item>
+        <item lang="bg" id="bottom">Отдолу</item>
+
+        <item lang="da" id="deleted_banners">Slet banner</item>
+        <item lang="da" id="error_no_data">Ingen gyldige data, der modtages</item>
+        <item lang="da" id="banner_deleted">Banneret er blevet slettet.</item>
+        <item lang="da" id="group_for_category">Gruppen for kategori</item>
+        <item lang="da" id="group_for_product">Gruppe for produkter</item>
+        <item lang="da" id="deleted_product_groups">Slettet product groups</item>
+        <item lang="da" id="error_payout_gt_balance">Udbetalingstabellen kan ikke være større end affiliate balance.</item>
+        <item lang="da" id="error_account_not_approved">Din konto er ikke blevet godkendt. Kontakt venligst butik administration.</item>
+        <item lang="da" id="error_account_declined">Din konto er lukket. Kontakt venligst butik administration.</item>
+        <item lang="da" id="text_partner_create_profile">I første omgang bør du modtage e-mail med godkendelse, så du kan logge ind</item>
+        <item lang="da" id="affiliates">Partner</item>
+        <item lang="da" id="affiliate_code">Partner kode</item>
+        <item lang="da" id="affiliate_commissions">Partner provisioner\n</item>
+        <item lang="da" id="related_actions">Relaterede aktioner</item>
+        <item lang="da" id="disapprove_commissions">Afvis provision</item>
+        <item lang="da" id="delete_commissions">Slet provisioner</item>
+        <item lang="da" id="approve_commissions">Godkend provisioner</item>
+        <item lang="da" id="count">optælling</item>
+        <item lang="da" id="avg">Ca.</item>
+        <item lang="da" id="show_zero_actions">Vis nul aktioner\n</item>
+        <item lang="da" id="not_show">Ikke show</item>
+        <item lang="da" id="only_zero_actions">Kun nul aktioner</item>
+        <item lang="da" id="affiliate_settings">Partner systemindstillinger</item>
+        <item lang="da" id="method_based_selling_price">Kommissionens beregninger baseret på produktets pris</item>
+        <item lang="da" id="coupon_commission_overide_all">kupon -kommision skal overskive alle andre</item>
+        <item lang="da" id="add_selected">tilføj valgte</item>
+        <item lang="da" id="add_commissions_multi_affiliates">Tilføj provision (er) til flere lag affiliere\n</item>
+        <item lang="da" id="add_commissions">Tilføj provisioner</item>
+        <item lang="da" id="add_coupons">Tilføj kupon(er)</item>
+        <item lang="da" id="new_plan">Nye plan</item>
+        <item lang="da" id="editing_plan">redigere plan</item>
+        <item lang="da" id="product_group">Produkt gruppe</item>
+        <item lang="da" id="refresh_banner">Opdatere banner</item>
+        <item lang="da" id="align">Tilpasse</item>
+        <item lang="da" id="show_border">Vis grænse</item>
+        <item lang="da" id="show_title">Vis titel</item>
+        <item lang="da" id="show_url">Vis URL</item>
+        <item lang="da" id="new_window">nyt vindue</item>
+        <item lang="da" id="affiliate_tiers_tree">Partner niveau tre</item>
+        <item lang="da" id="without_plan">Uden plan</item>
+        <item lang="da" id="personal_information">Personale information</item>
+        <item lang="da" id="edit_affiliate">redigere partner</item>
+        <item lang="da" id="viewing_affiliate">Visning af partner</item>
+        <item lang="da" id="checking_min_payment">Betalinger med minimum frigivet plan kun\n</item>
+        <item lang="da" id="checking_payment_period">skyldig betaling</item>
+        <item lang="da" id="amount_of_approved_actions">Beløb af de godkendte foranstaltninger</item>
+        <item lang="da" id="amount_of_awaiting_approval_actions">Mængden af tiltag afventer godkendelse</item>
+        <item lang="da" id="date_of_last_payment">Dato på sidste betaling</item>
+        <item lang="da" id="pay_affiliates">Betal partner</item>
+        <item lang="da" id="last_payout">Sidste udbetalinger</item>
+        <item lang="da" id="avg_payout">Ca. udbetaling</item>
+        <item lang="da" id="view_history">Se historie</item>
+        <item lang="da" id="accounting_history">Regnskab historie </item>
+        <item lang="da" id="add_group_for_categories">Tilføj gruppe for kategori</item>
+        <item lang="da" id="add_group_for_products">Tilføj gruppe for produkter</item>
+        <item lang="da" id="add_url_group"> Tilføj URL gruppe</item>
+        <item lang="da" id="email_approved_notification_header">Tak for at blive registreret affiliate af [company]. Din konto er godkendt.</item>
+        <item lang="da" id="email_subj_approved">Din konto er godkendt.</item>
+        <item lang="da" id="email_declined_notification_header">Din account er lukket</item>
+        <item lang="da" id="email_subj_declined">Din konto er blevet lukket</item>
+        <item lang="da" id="bottom">Bund</item>
+
+        <item lang="de" id="error_no_data">Keine gultigen Daten empfangen</item>
+        <item lang="de" id="personal_information">personliche Information</item>
+
+        <item lang="el" id="deleted_banners">Διαγραμμένα banners</item>
+        <item lang="el" id="error_no_data">Δεν έγινε λήψη  έγκυρων δεδομένων</item>
+        <item lang="el" id="banner_deleted">Το banner έχει διαγραφεί επιτυχώς.</item>
+        <item lang="el" id="group_for_category">Ομάδα κατηγοριών</item>
+        <item lang="el" id="group_for_product">Ομάδα προϊόντων</item>
+        <item lang="el" id="deleted_product_groups">Διαγραμμένες ομάδες προϊόντων</item>
+        <item lang="el" id="error_payout_gt_balance">Η πληρωμή δεν μπορεί να υπερβαίνει το συνολικό ποσό των συνεργατών.</item>
+        <item lang="el" id="error_account_not_approved">Ο λογαριασμός (συνεργάτη) ανταπόδοσης σας δεν εγκρίθηκε. Παρακαλούμε επικοινωνήστε με την διοίκηση του καταστήματος.</item>
+        <item lang="el" id="error_account_declined">Ο λογαριασμός (συνεργάτη) ανταπόδοσης σας απορρίφθηκε.</item>
+        <item lang="el" id="text_partner_create_profile">Πρώτα θα πρέπει να λάβετε ένα μήνυμα ηλεκτρονικού ταχυδρομείου με την έγκριση και  τότε θα μπορείτε να συνδεθείτε!</item>
+        <item lang="el" id="affiliates">Προγράμματα ανταπόδοσης (Affiliate)</item>
+        <item lang="el" id="affiliate_code">Κωδικός προγράμματος ανταπόδοσης (Affiliate)</item>
+        <item lang="el" id="affiliate_commissions">Προμήθειες προγράμματος ανταπόδοσης (Affiliate)</item>
+        <item lang="el" id="related_actions">Σχετικές  ενέργειες</item>
+        <item lang="el" id="disapprove_commissions">Απόρριψη προμηθειών</item>
+        <item lang="el" id="delete_commissions">Διαγραφή προμηθειών</item>
+        <item lang="el" id="approve_commissions">Έγκριση επιτροπών</item>
+        <item lang="el" id="count">Αρίθμηση</item>
+        <item lang="el" id="sum">Άθροισμα</item>
+        <item lang="el" id="avg">ΜΟ</item>
+        <item lang="el" id="plan">Σχέδιο</item>
+        <item lang="el" id="show_zero_actions">Προβολή μηδενικών ενεργειών</item>
+        <item lang="el" id="not_show">Δεν εμφανίζεται</item>
+        <item lang="el" id="only_zero_actions">Μόνο μηδενικές δράσεις</item>
+        <item lang="el" id="affiliate_settings">Ρυθμίσεις συστήματος προγράμματος ανταπόδωσης (Affiliate)</item>
+        <item lang="el" id="plans">Σχέδια</item>
+        <item lang="el" id="method_based_selling_price">Προμήθεια υπολογισμού βασισμένη στην τιμή του προϊόντος</item>
+        <item lang="el" id="coupon_commission_overide_all">Η προμήθεια του κουπονιού θα πρέπει να έχει προτεραιότητα έναντι όλων των άλλων</item>
+        <item lang="el" id="add_selected">Προσθήκη επιλεγμένων</item>
+        <item lang="el" id="add_commissions_multi_affiliates">Προσθήκη επιτροπής (ών) σε πολλαπλές βαθμίδες ανταπόδοσης</item>
+        <item lang="el" id="add_commissions">Προσθήκη Επιτροπών</item>
+        <item lang="el" id="add_coupons">Προσθήκη κουπονιού(-ών)</item>
+        <item lang="el" id="new_plan">Νέο σχέδιο</item>
+        <item lang="el" id="editing_plan">Επεξεργασία σχεδίου</item>
+        <item lang="el" id="product_group">Ομάδα προϊόντος</item>
+        <item lang="el" id="refresh_banner">Ανανέωση banner</item>
+        <item lang="el" id="align">Στοίχιση</item>
+        <item lang="el" id="center">Κέντρο</item>
+        <item lang="el" id="show_border">Προβολή ορίου </item>
+        <item lang="el" id="show_title">Προβολή τίτλου</item>
+        <item lang="el" id="show_url">Προβολή URL</item>
+        <item lang="el" id="new_window">Νέο παράθυρο</item>
+        <item lang="el" id="affiliate_tiers_tree">Δένδρο βαθμίδων προγράμματος ανταπόδωσης (Affiliate)</item>
+        <item lang="el" id="without_plan">Χωρίς σχέδιο</item>
+        <item lang="el" id="personal_information">Προσωπικές Πληροφορίες</item>
+        <item lang="el" id="edit_affiliate">Επεξεργασία ανταπόδοσης</item>
+        <item lang="el" id="viewing_affiliate">Προβολή affiliate</item>
+        <item lang="el" id="checking_min_payment">Απελευθέρωση πληρωμών μόνο με το ελάχιστο  επίπεδο</item>
+        <item lang="el" id="checking_payment_period">Λόγω πληρωμών  μόνο</item>
+        <item lang="el" id="amount_of_approved_actions">Η ποσότητα των εγκεκριμένων ενεργειών</item>
+        <item lang="el" id="amount_of_awaiting_approval_actions">Η ποσότητα των ενεργειών που περιμένουν αποδοχή</item>
+        <item lang="el" id="date_of_last_payment">Ημερομηνία της προηγούμενης πληρωμής</item>
+        <item lang="el" id="pay_affiliates">Πληρωμή θυγατρικών</item>
+        <item lang="el" id="last_payout">Τελευταία πληρωμή</item>
+        <item lang="el" id="avg_payout">ΜΟ πληρωμής</item>
+        <item lang="el" id="view_history">Προβολή ιστορικού</item>
+        <item lang="el" id="accounting_history">Ιστορικό λογαριασμών</item>
+        <item lang="el" id="add_group_for_categories">Προσθήκη Ομάδας σε κατηγορίες</item>
+        <item lang="el" id="add_group_for_products">Προσθήκη Ομάδας σε Προϊόντα</item>
+        <item lang="el" id="add_url_group">Προσθήκη ομάδας URL</item>
+        <item lang="el" id="email_approved_notification_header">Σας ευχαριστούμε που γίνατε  καταχωρημένο μέλος της [company]. Ο λογαριασμός σας έχει ενεργοποιηθεί.</item>
+        <item lang="el" id="email_subj_approved">Ο λογαριασμός σας έχει εγκριθεί.</item>
+        <item lang="el" id="email_declined_notification_header">Ο λογαριασμός σας απορρίφθηκε.</item>
+        <item lang="el" id="email_subj_declined">Ο λογαριασμός σας απορρίφθηκε.</item>
+        <item lang="el" id="top">Πάνω</item>
+        <item lang="el" id="bottom">Κάτω</item>
+
+        <item lang="es" id="deleted_banners">Banners borrados</item>
+        <item lang="es" id="error_no_data">Ningún dato válido recibido</item>
+        <item lang="es" id="group_for_category">Grupo para categorías</item>
+        <item lang="es" id="group_for_product">Grupo para productos</item>
+        <item lang="es" id="deleted_product_groups">Grupo de productos borrados</item>
+        <item lang="es" id="error_payout_gt_balance">La liquidación no puede ser mayor que el balance del afiliado.</item>
+        <item lang="es" id="error_account_not_approved">Su cuenta no ha sido aprobada. Por favor contacta con la administración de la tienda.</item>
+        <item lang="es" id="error_account_declined">Su cuenta está anulada. Por favor contacta con la administración de la tienda.</item>
+        <item lang="es" id="affiliates">Afiliados</item>
+        <item lang="es" id="affiliate_code">Código de afiliado</item>
+        <item lang="es" id="affiliate_commissions">Comisiones de afiliados</item>
+        <item lang="es" id="approve_commissions">Aprobar comisiones</item>
+        <item lang="es" id="not_show">No mostrar</item>
+        <item lang="es" id="affiliate_settings">Opciones del sistema de afiliados</item>
+        <item lang="es" id="method_based_selling_price">Método del cálculo de la comisión basado en el precio del producto</item>
+        <item lang="es" id="coupon_commission_overide_all">La comisión de cupón debería anular todo los demás</item>
+        <item lang="es" id="add_selected">Añadir seleccionado</item>
+        <item lang="es" id="add_commissions_multi_affiliates">Añada comisión (es) a afiliados multinivel</item>
+        <item lang="es" id="add_coupons">Añadir cupón(es)</item>
+        <item lang="es" id="product_group">Grupo de producto</item>
+        <item lang="es" id="refresh_banner">Actualizar banner</item>
+        <item lang="es" id="align">Alinear</item>
+        <item lang="es" id="center">Centro</item>
+        <item lang="es" id="show_border">Mostrar borde</item>
+        <item lang="es" id="show_title">Mostrar título</item>
+        <item lang="es" id="show_url">Mostrar URL</item>
+        <item lang="es" id="affiliate_tiers_tree">Árbol de niveles de afiliados</item>
+        <item lang="es" id="personal_information">Información personal</item>
+        <item lang="es" id="checking_min_payment">Muestre sólo pagos con el nivel de liberación mínimo</item>
+        <item lang="es" id="checking_payment_period">Muestre pagos debidos sólo</item>
+        <item lang="es" id="amount_of_approved_actions">Cantidad de acciones aprobadas</item>
+        <item lang="es" id="amount_of_awaiting_approval_actions">Cantidad de acciones que esperan aprobación</item>
+        <item lang="es" id="date_of_last_payment">Datos del último pago</item>
+        <item lang="es" id="pay_affiliates">Pagos de afiliados</item>
+        <item lang="es" id="last_payout">Último pago</item>
+        <item lang="es" id="avg_payout">Promedio de liquidaciones</item>
+        <item lang="es" id="view_history">Ver historial</item>
+        <item lang="es" id="accounting_history">Historial de la cuenta</item>
+        <item lang="es" id="email_approved_notification_header">Gracias por hacerse un afiliado registrado en [company]. Su cuenta ha sido aprobada.</item>
+        <item lang="es" id="email_subj_approved">Su cuenta ha sido aprobada</item>
+        <item lang="es" id="email_declined_notification_header">Su cuenta está anulada</item>
+        <item lang="es" id="email_subj_declined">Su cuenta está anulada</item>
+        <item lang="es" id="top">Arriba</item>
+
+        <item lang="fr" id="deleted_banners">Bannières supprimées</item>
+        <item lang="fr" id="error_no_data">Aucune donnée valide reçue</item>
+        <item lang="fr" id="group_for_category">Groupe pour catégories</item>
+        <item lang="fr" id="group_for_product">Groupe pour produits</item>
+        <item lang="fr" id="deleted_product_groups">Groupes de produit supprimés</item>
+        <item lang="fr" id="error_payout_gt_balance">Le versement ne peut être supérieur à la balance du partenaire.</item>
+        <item lang="fr" id="error_account_not_approved">Votre compte n'a pas été approuvé. Contactez-svp l'administrateur de la boutique.</item>
+        <item lang="fr" id="error_account_declined">Votre compte a été refusé. Contactez-svp l'administrateur de la boutique.</item>
+        <item lang="fr" id="affiliates">Affiliés</item>
+        <item lang="fr" id="affiliate_code">Code affilié</item>
+        <item lang="fr" id="affiliate_commissions">Commissions affilié</item>
+        <item lang="fr" id="disapprove_commissions">Désapprouver commissions</item>
+        <item lang="fr" id="approve_commissions">Approuver les commissions</item>
+        <item lang="fr" id="show_zero_actions">Montrer actions nulles</item>
+        <item lang="fr" id="not_show">Non affiché</item>
+        <item lang="fr" id="only_zero_actions">Actions zéro seulement</item>
+        <item lang="fr" id="affiliate_settings">Paramétrages du système d'affiliation</item>
+        <item lang="fr" id="method_based_selling_price">Calcul du mode de commission basé sur le prix du produit</item>
+        <item lang="fr" id="coupon_commission_overide_all">La commission du coupon devrait dépasser tous les autres</item>
+        <item lang="fr" id="add_selected">Ajouter sélection</item>
+        <item lang="fr" id="add_commissions_multi_affiliates">Ajouter des commissions aux affiliés multi tier</item>
+        <item lang="fr" id="add_commissions">Ajouter des commissions</item>
+        <item lang="fr" id="add_coupons">Ajouter un/des coupon(s)</item>
+        <item lang="fr" id="new_plan">Nouveau plan</item>
+        <item lang="fr" id="editing_plan">Édition d'un plan</item>
+        <item lang="fr" id="product_group">Groupe de produit</item>
+        <item lang="fr" id="refresh_banner">Rafraichir bannière</item>
+        <item lang="fr" id="align">Aligner</item>
+        <item lang="fr" id="center">Centre</item>
+        <item lang="fr" id="show_border">Afficher les bords</item>
+        <item lang="fr" id="show_title">Montrer titre</item>
+        <item lang="fr" id="show_url">Montrer URL</item>
+        <item lang="fr" id="affiliate_tiers_tree">Arbre affiliés tiers</item>
+        <item lang="fr" id="personal_information">Informations personnelles</item>
+        <item lang="fr" id="checking_min_payment">Activer la vérification du paiement minimal</item>
+        <item lang="fr" id="checking_payment_period">Activer la vérification de la période de paiement</item>
+        <item lang="fr" id="amount_of_approved_actions">Nombre d'actions approuvées</item>
+        <item lang="fr" id="amount_of_awaiting_approval_actions">Nombre d'actions en attente d'approbation</item>
+        <item lang="fr" id="date_of_last_payment">Date du dernier paiement</item>
+        <item lang="fr" id="pay_affiliates">Payer les partenaires</item>
+        <item lang="fr" id="last_payout">Dernier versement</item>
+        <item lang="fr" id="avg_payout">Versement moyen</item>
+        <item lang="fr" id="view_history">Voir historique</item>
+        <item lang="fr" id="accounting_history">Historique de la comptabilité</item>
+        <item lang="fr" id="add_group_for_categories">Ajouter un groupe pour catégories</item>
+        <item lang="fr" id="add_group_for_products">Ajouter un groupe pour produits</item>
+        <item lang="fr" id="email_approved_notification_header">Merci de devenir partenaire de [company]. Votre compte a été approuvé.</item>
+        <item lang="fr" id="email_subj_approved">Votre compte est approuvé</item>
+        <item lang="fr" id="email_declined_notification_header">Votre compte est refusé.</item>
+        <item lang="fr" id="email_subj_declined">Votre compte est refusé</item>
+        <item lang="fr" id="top">Haut</item>
+        <item lang="fr" id="bottom">Bas</item>
+
+        <item lang="it" id="aff_object_cant_delete">L'oggetto non può essere modificato</item>
+        <item lang="it" id="deleted_banners">Banner eliminati</item>
+        <item lang="it" id="undeleted_banners">Banner non cancellati</item>
+        <item lang="it" id="error_no_data">Dati ricevuti non validi</item>
+        <item lang="it" id="aff_cant_create_banner">Il banner non può essere modificato</item>
+        <item lang="it" id="banner_deleted">Il banner è stato cancellato correttamente</item>
+        <item lang="it" id="aff_cant_create_group">Il gruppo non può essere modificato</item>
+        <item lang="it" id="group_for_category">Gruppi per categorie</item>
+        <item lang="it" id="group_for_product">Gruppi per prodotti</item>
+        <item lang="it" id="deleted_product_groups">Gruppi di prodotto Eliminati</item>
+        <item lang="it" id="undeleted_product_groups">Gruppo prodotti non cancellati</item>
+        <item lang="it" id="error_payout_gt_balance">La quota non può superare il saldo affiliato.</item>
+        <item lang="it" id="error_account_not_approved">Il tuo account affiliato non è stato approvato. Ti preghiamo di contattare l'amministratore.</item>
+        <item lang="it" id="error_account_declined">Il tuo account affiliato è stato rifiutato. Ti preghiamo di contattare l'amministratore del negozio.</item>
+        <item lang="it" id="text_partner_create_profile">In primo luogo si dovrebbe ricevere un messaggio e-mail con l'approvazione, poi sarà possibile accedere\n</item>
+        <item lang="it" id="affiliates">Affiliati</item>
+        <item lang="it" id="affiliate_code">Codice affiliato</item>
+        <item lang="it" id="affiliate_commissions">Commissioni affiliato</item>
+        <item lang="it" id="related_actions">Azioni correlate</item>
+        <item lang="it" id="disapprove_commissions">Disapprova commissioni</item>
+        <item lang="it" id="delete_commissions">Elimina commissioni</item>
+        <item lang="it" id="approve_commissions">Approva commissioni</item>
+        <item lang="it" id="sum">Somma</item>
+        <item lang="it" id="avg">Med</item>
+        <item lang="it" id="plan">Piano</item>
+        <item lang="it" id="show_zero_actions">Mostra azioni zero</item>
+        <item lang="it" id="not_show">Non mostrare</item>
+        <item lang="it" id="only_zero_actions">Solo zero azioni</item>
+        <item lang="it" id="affiliate_settings">Impostazioni di sistema affiliato</item>
+        <item lang="it" id="plans">Piani</item>
+        <item lang="it" id="method_based_selling_price">Commissioni calcolate in base al prezzo del prodotto</item>
+        <item lang="it" id="coupon_commission_overide_all">Le commissioni del Coupon potrebbero sovrascrivere le altre\n</item>
+        <item lang="it" id="add_selected">Aggiungi selezionato</item>
+        <item lang="it" id="add_commissions_multi_affiliates">Aggiungi commissione/i ad affiliati multi livello</item>
+        <item lang="it" id="add_commissions">Aggiungi commissione/i</item>
+        <item lang="it" id="add_coupons">Aggiungi buono/i</item>
+        <item lang="it" id="new_plan">Nuovo piano</item>
+        <item lang="it" id="editing_plan">Modifica piano</item>
+        <item lang="it" id="product_group">gruppo prodotto</item>
+        <item lang="it" id="refresh_banner">Aggiorna banner</item>
+        <item lang="it" id="align">Allineamento</item>
+        <item lang="it" id="center">Centrato</item>
+        <item lang="it" id="show_border">Mostra bordo</item>
+        <item lang="it" id="show_title">Mostra titolo</item>
+        <item lang="it" id="show_url">Mostra URL</item>
+        <item lang="it" id="new_window">Nuova finestra</item>
+        <item lang="it" id="affiliate_tiers_tree">Albero livelli affiliati</item>
+        <item lang="it" id="without_plan">Senza piano</item>
+        <item lang="it" id="personal_information">Informazioni personali</item>
+        <item lang="it" id="edit_affiliate">Modifica affiliato</item>
+        <item lang="it" id="viewing_affiliate">Visualizza affiliati</item>
+        <item lang="it" id="checking_min_payment">Solo pagamenti con livello minimo di rilascio</item>
+        <item lang="it" id="checking_payment_period">Solo pagamenti in ritardo</item>
+        <item lang="it" id="amount_of_approved_actions">Numero di azioni approvate</item>
+        <item lang="it" id="amount_of_awaiting_approval_actions">Numero di azioni in attesa di approvazione</item>
+        <item lang="it" id="date_of_last_payment">Data del precedente pagamento</item>
+        <item lang="it" id="pay_affiliates">Paga affiliati</item>
+        <item lang="it" id="last_payout">Ultimo pagamento</item>
+        <item lang="it" id="avg_payout">Payout medio</item>
+        <item lang="it" id="view_history">Visualizza storico</item>
+        <item lang="it" id="accounting_history">Storico accounting</item>
+        <item lang="it" id="add_group_for_categories">Aggiungi gruppo per categorie</item>
+        <item lang="it" id="add_group_for_products">Aggiungi gruppo per prodotti</item>
+        <item lang="it" id="add_url_group">Aggiungi gruppo URL</item>
+        <item lang="it" id="email_approved_notification_header">Grazie per essere diventato un affiliato registrato della (azienda). Il tuo profilo è stato attivato.</item>
+        <item lang="it" id="email_subj_approved">Il tuo account è stato approvato.</item>
+        <item lang="it" id="email_declined_notification_header">il tuo profilo è stato rifiutato.</item>
+        <item lang="it" id="email_subj_declined">Il tuo account è stato rifiutato.</item>
+        <item lang="it" id="top">Inizio</item>
+        <item lang="it" id="bottom">Inferiore</item>
+
+        <item lang="nl" id="error_no_data">Geen geldige data ontvangen</item>
+        <item lang="nl" id="personal_information">Persoonlijke informatie</item>
+
+        <item lang="no" id="deleted_banners">Slettede bannere</item>
+        <item lang="no" id="error_no_data">Ingen gyldige data mottatt</item>
+        <item lang="no" id="banner_deleted">Banneret er slettet.</item>
+        <item lang="no" id="group_for_category">Gruppe for kategorier</item>
+        <item lang="no" id="group_for_product">Gruppe for produkter</item>
+        <item lang="no" id="deleted_product_groups">Slettet produktgrupper</item>
+        <item lang="no" id="error_payout_gt_balance">Utbetalingen kan ikke overstige affiliate balansen.</item>
+        <item lang="no" id="error_account_not_approved">Din affiliate konto ble ikke godkjent. Vennligst ta kontakt med butikkadministrasjonen.</item>
+        <item lang="no" id="error_account_declined">Din affiliate konto ble avvist. Vennligst ta kontakt med butikkadministrasjonen.</item>
+        <item lang="no" id="text_partner_create_profile">Først bør du motta en epost med godkjenning, så kan du logge inn.</item>
+        <item lang="no" id="affiliate_code">Affiliate kode</item>
+        <item lang="no" id="affiliate_commissions">Affiliate provisjoner</item>
+        <item lang="no" id="related_actions">Relaterte handlinger</item>
+        <item lang="no" id="disapprove_commissions">Avvis provisjoner</item>
+        <item lang="no" id="delete_commissions">Slett provisjoner</item>
+        <item lang="no" id="approve_commissions">Godkjenn provisjoner</item>
+        <item lang="no" id="count">Opptelling</item>
+        <item lang="no" id="avg">Gjennomsnitt</item>
+        <item lang="no" id="show_zero_actions">Vis null-handlinger</item>
+        <item lang="no" id="not_show">Ikke vis</item>
+        <item lang="no" id="only_zero_actions">Kun null-handlinger</item>
+        <item lang="no" id="affiliate_settings">Affiliate systeminnstillinger</item>
+        <item lang="no" id="plans">Planer</item>
+        <item lang="no" id="method_based_selling_price">Provisjonsberegning basert på produktpris</item>
+        <item lang="no" id="coupon_commission_overide_all">Kupongen provisjon bør overstyre alle de andre</item>
+        <item lang="no" id="add_selected">Legg til valgte</item>
+        <item lang="no" id="add_commissions_multi_affiliates">Legg til provisjon(er) til multi-lag tilslutninger</item>
+        <item lang="no" id="add_commissions">Legg til Provisjoner</item>
+        <item lang="no" id="add_coupons">Legg til kupong(er)</item>
+        <item lang="no" id="new_plan">Ny plan</item>
+        <item lang="no" id="editing_plan">Redigerer plan</item>
+        <item lang="no" id="product_group">Produktgruppe</item>
+        <item lang="no" id="refresh_banner">Oppdater banner</item>
+        <item lang="no" id="align">Juster</item>
+        <item lang="no" id="center">Midstill</item>
+        <item lang="no" id="show_border">Vis grense</item>
+        <item lang="no" id="show_title">Vis tittel</item>
+        <item lang="no" id="show_url">Vis URL</item>
+        <item lang="no" id="new_window">Nytt vindu</item>
+        <item lang="no" id="affiliate_tiers_tree">Affiliate nivåer treet</item>
+        <item lang="no" id="without_plan">Uten plan</item>
+        <item lang="no" id="personal_information">Personlig informasjon</item>
+        <item lang="no" id="edit_affiliate">Rediger affiliate</item>
+        <item lang="no" id="viewing_affiliate">Viser affiliate</item>
+        <item lang="no" id="checking_min_payment">Betalinger kun med minimum utgivelsesnivå</item>
+        <item lang="no" id="checking_payment_period">Kun skyldige betalinger</item>
+        <item lang="no" id="amount_of_approved_actions">Antall godkjente tiltak</item>
+        <item lang="no" id="amount_of_awaiting_approval_actions">Antall handlinger som venter på godkjenning</item>
+        <item lang="no" id="date_of_last_payment">Dato for forrige betaling</item>
+        <item lang="no" id="pay_affiliates">Betal partnere</item>
+        <item lang="no" id="last_payout">Siste utbetaling</item>
+        <item lang="no" id="avg_payout">Gjennomsnittlig utbetaling</item>
+        <item lang="no" id="view_history">Vis historie</item>
+        <item lang="no" id="accounting_history">Regnskaps Historie</item>
+        <item lang="no" id="add_group_for_categories">Legg til Gruppe for Kategorier</item>
+        <item lang="no" id="add_group_for_products">Legg til Gruppe for Produkter</item>
+        <item lang="no" id="add_url_group">Legg til URL gruppe</item>
+        <item lang="no" id="email_approved_notification_header">Takk for å du blir en registrert agent for [company]. Din konto har blitt aktivert.</item>
+        <item lang="no" id="email_subj_approved">Din konto ble godkjent.</item>
+        <item lang="no" id="email_declined_notification_header">Din konto ble avslått.</item>
+        <item lang="no" id="email_subj_declined">Din konto ble avslått.</item>
+        <item lang="no" id="top">Topp</item>
+        <item lang="no" id="bottom">Bunn</item>
+
+        <item lang="ro" id="deleted_banners">Banner-uri șterse</item>
+        <item lang="ro" id="error_no_data">Nu există date valide primite</item>
+        <item lang="ro" id="banner_deleted">Banner-ul a fost șters cu succes.</item>
+        <item lang="ro" id="group_for_category">Grup pentru categorii</item>
+        <item lang="ro" id="group_for_product">Grup pentru produse</item>
+        <item lang="ro" id="deleted_product_groups">Ștergeți grup de produse</item>
+        <item lang="ro" id="error_payout_gt_balance">Plata nu poate fi mai mare decât soldul affiliatului.</item>
+        <item lang="ro" id="error_account_not_approved">Contul dvs. de affiliere nu a fost aprobat. Vă rugăm contactați administrația magazinului.</item>
+        <item lang="ro" id="error_account_declined">Contul dvs. de affiliere este respins. Vă rugăm contactați administrația magazinului.</item>
+        <item lang="ro" id="text_partner_create_profile">Pentru început trebuie să primiți un e-mail cu aprobarea contului, apoi vă puteți autentifica.</item>
+        <item lang="ro" id="affiliates">Affiliate-uri</item>
+        <item lang="ro" id="affiliate_code">Codul de affiliate</item>
+        <item lang="ro" id="affiliate_commissions">Comisioanele affiliate-ului</item>
+        <item lang="ro" id="related_actions">Acțiuni asociate</item>
+        <item lang="ro" id="disapprove_commissions">Comisioanele refuzate</item>
+        <item lang="ro" id="delete_commissions">Ștergeți comisioanele</item>
+        <item lang="ro" id="approve_commissions">Aprobați comisioane</item>
+        <item lang="ro" id="count">Total</item>
+        <item lang="ro" id="sum">Sumă</item>
+        <item lang="ro" id="avg">Med</item>
+        <item lang="ro" id="show_zero_actions">Afișează acțiunile zero</item>
+        <item lang="ro" id="not_show">Nu arâta</item>
+        <item lang="ro" id="only_zero_actions">Numai acțiunile zero</item>
+        <item lang="ro" id="affiliate_settings">Setările sistemului de affilitate</item>
+        <item lang="ro" id="plans">Planuri</item>
+        <item lang="ro" id="method_based_selling_price">Calculul comisionului bazat pe prețul produsului</item>
+        <item lang="ro" id="coupon_commission_overide_all">Comisionul cuponului ar trebui să suprascrie toate celălalte</item>
+        <item lang="ro" id="add_selected">Adăugați cea selectată</item>
+        <item lang="ro" id="add_commissions_multi_affiliates">Adăugați comision (comisioane) per afiliate</item>
+        <item lang="ro" id="add_commissions">Adăugați comisioane</item>
+        <item lang="ro" id="add_coupons">Adăungaț un cupon (cuponuri)</item>
+        <item lang="ro" id="new_plan">Plan nou</item>
+        <item lang="ro" id="editing_plan">Editare plan</item>
+        <item lang="ro" id="product_group">Grup de produse</item>
+        <item lang="ro" id="refresh_banner">Reactualizați baner</item>
+        <item lang="ro" id="align">Aliniază</item>
+        <item lang="ro" id="center">Centru</item>
+        <item lang="ro" id="show_border">Afișează margine</item>
+        <item lang="ro" id="show_title">Afișeză titlu</item>
+        <item lang="ro" id="show_url">Afișează URL</item>
+        <item lang="ro" id="new_window">Fereastră nouă</item>
+        <item lang="ro" id="affiliate_tiers_tree">Ramură etajată a affilatului</item>
+        <item lang="ro" id="without_plan">Fără plan</item>
+        <item lang="ro" id="personal_information">Informații personale</item>
+        <item lang="ro" id="edit_affiliate">Editare affiliat</item>
+        <item lang="ro" id="viewing_affiliate">Vizualizare affiliat</item>
+        <item lang="ro" id="checking_min_payment">Plățile doar cu nivel minim de emitere</item>
+        <item lang="ro" id="checking_payment_period">Plățile datoare numai</item>
+        <item lang="ro" id="amount_of_approved_actions">Suma de acțiuni aprobate</item>
+        <item lang="ro" id="amount_of_awaiting_approval_actions">Suma de acțiuni care sunt în așteptarea aprobării</item>
+        <item lang="ro" id="date_of_last_payment">Data ultimei plăți</item>
+        <item lang="ro" id="pay_affiliates">Plăți afiliate</item>
+        <item lang="ro" id="last_payout">Ultima plată a compensațiilor</item>
+        <item lang="ro" id="avg_payout">Plata medie a compensațiilor</item>
+        <item lang="ro" id="view_history">Vezi istoric</item>
+        <item lang="ro" id="accounting_history">Istoric contabilitate</item>
+        <item lang="ro" id="add_group_for_categories">Adăugați un grup pentru categorii</item>
+        <item lang="ro" id="add_group_for_products">Adăugați un grup pentru produse</item>
+        <item lang="ro" id="add_url_group">Adăugați un grup nou de url-uri</item>
+        <item lang="ro" id="email_approved_notification_header">Vă mulțumim pentru că doriți să defeniți un affiliat al [company]. Contul dvs. a fost acceptat.</item>
+        <item lang="ro" id="email_subj_approved">Contul dvs. este aprobat</item>
+        <item lang="ro" id="email_declined_notification_header">Contul dvs. a fost respins.</item>
+        <item lang="ro" id="email_subj_declined">Contul dvs. este repins</item>
+        <item lang="ro" id="top">Sus</item>
+        <item lang="ro" id="bottom">Parte de jos</item>
+
+        <item lang="ru" id="deleted_banners">Удаленные баннеры</item>
+        <item lang="ru" id="undeleted_banners">Неудаленные баннеры</item>
+        <item lang="ru" id="error_no_data">Получены неверные данные</item>
+        <item lang="ru" id="banner_deleted">Баннер был успешно удалён.</item>
+        <item lang="ru" id="group_for_category">Группа для категории</item>
+        <item lang="ru" id="group_for_product">Группа для товаров</item>
+        <item lang="ru" id="deleted_product_groups">Удаленные группы товаров</item>
+        <item lang="ru" id="undeleted_product_groups">Неудаленные группы товаров</item>
+        <item lang="ru" id="error_payout_gt_balance">Выплата не может быть больше баланса партнера.</item>
+        <item lang="ru" id="error_account_not_approved">Ваша учетная запись не подтверждена. Пожалуйста, свяжитесь с администрацией магазина.</item>
+        <item lang="ru" id="error_account_declined">Ваша учетная запись заблокирована. Пожалуйста, обратитесь к администрации магазина.</item>
+        <item lang="ru" id="text_partner_create_profile">Сначала Вам необходимио получить e-mail с подтверждением, после этого Вы сможете залогиниться.</item>
+        <item lang="ru" id="affiliates">Партнеры</item>
+        <item lang="ru" id="affiliate_code">Партнерский код</item>
+        <item lang="ru" id="affiliate_commissions">Партнерские комиссии</item>
+        <item lang="ru" id="related_actions">Связанные действия</item>
+        <item lang="ru" id="disapprove_commissions">Отклонить комиссии</item>
+        <item lang="ru" id="delete_commissions">Удалить комиссии</item>
+        <item lang="ru" id="approve_commissions">Подтвердить комиссии</item>
+        <item lang="ru" id="count">К-во</item>
+        <item lang="ru" id="sum">Сумма</item>
+        <item lang="ru" id="avg">Ср.</item>
+        <item lang="ru" id="plan">План</item>
+        <item lang="ru" id="show_zero_actions">Показать действия при нулевой цене</item>
+        <item lang="ru" id="not_show">Не показывать</item>
+        <item lang="ru" id="only_zero_actions">Только нулевые действия</item>
+        <item lang="ru" id="affiliate_settings">Настройки партнерской системы</item>
+        <item lang="ru" id="plans">Планы</item>
+        <item lang="ru" id="method_based_selling_price">Вычисление комиссии на основе цены товара</item>
+        <item lang="ru" id="coupon_commission_overide_all">Комиссия купона заменит все остальные комиссии</item>
+        <item lang="ru" id="add_selected">Добавить выбранное</item>
+        <item lang="ru" id="add_commissions_multi_affiliates">Добавить комиcсию(-и) многоуровневым партнерам</item>
+        <item lang="ru" id="add_commissions">Добавить комиcсию(-и)</item>
+        <item lang="ru" id="add_coupons">Добавить купон(ы)</item>
+        <item lang="ru" id="new_plan">Новый план</item>
+        <item lang="ru" id="editing_plan">Редактирование плана</item>
+        <item lang="ru" id="product_group">Группа товара</item>
+        <item lang="ru" id="refresh_banner">Обновить баннер</item>
+        <item lang="ru" id="align">Выравнивание</item>
+        <item lang="ru" id="center">Центр</item>
+        <item lang="ru" id="show_border">Показывать границу</item>
+        <item lang="ru" id="show_title">Показать заголовок</item>
+        <item lang="ru" id="show_url">Показать URL</item>
+        <item lang="ru" id="new_window">Новое окно</item>
+        <item lang="ru" id="affiliate_tiers_tree">n-ое дерево партнерства</item>
+        <item lang="ru" id="without_plan">Без плана</item>
+        <item lang="ru" id="personal_information">Личные данные</item>
+        <item lang="ru" id="edit_affiliate">Редактировать партнёра</item>
+        <item lang="ru" id="viewing_affiliate">Просмотр партнёра</item>
+        <item lang="ru" id="checking_min_payment">Показывать платежи только с требуемым минимальным уровнем</item>
+        <item lang="ru" id="checking_payment_period">Показывать только последние платежи</item>
+        <item lang="ru" id="amount_of_approved_actions">Одобренные действия</item>
+        <item lang="ru" id="amount_of_awaiting_approval_actions">Действия, ожидающие одобрения</item>
+        <item lang="ru" id="date_of_last_payment">Дата последнего платежа</item>
+        <item lang="ru" id="pay_affiliates">Платить партнерам</item>
+        <item lang="ru" id="last_payout">Последняя выплата</item>
+        <item lang="ru" id="avg_payout">Средн. выплата</item>
+        <item lang="ru" id="view_history">Показать историю</item>
+        <item lang="ru" id="accounting_history">Данные учёта</item>
+        <item lang="ru" id="add_group_for_categories">Добавить группу для категорий</item>
+        <item lang="ru" id="add_group_for_products">Добавить группу для товаров</item>
+        <item lang="ru" id="add_url_group">Добавить группу url</item>
+        <item lang="ru" id="email_approved_notification_header">Спасибо за то, что стали зарегистрированным партнером [company]. ваша учетная запись подтверждена.</item>
+        <item lang="ru" id="email_subj_approved">Ваша учетная запись подтверждена</item>
+        <item lang="ru" id="email_declined_notification_header">Ваша учетная запись отклонена.</item>
+        <item lang="ru" id="email_subj_declined">Ваша учетная запись отклонена</item>
+        <item lang="ru" id="top">Верхняя часть</item>
+        <item lang="ru" id="bottom">Нижняя часть</item>
+
+        <item lang="sl" id="deleted_banners">Izbrisane oglasne pasice</item>
+        <item lang="sl" id="error_no_data">Prejeti podatki niso veljavni</item>
+        <item lang="sl" id="banner_deleted">Oglasna pasica je bil uspešno zbrisana.</item>
+        <item lang="sl" id="group_for_category">Skupina za kategorije</item>
+        <item lang="sl" id="group_for_product">Skupina za proizvode</item>
+        <item lang="sl" id="deleted_product_groups">Izbrisane skupine proizvodov</item>
+        <item lang="sl" id="error_payout_gt_balance">Izplačilo ne sme biti večje, kot je določeno v partnerskem programu</item>
+        <item lang="sl" id="error_account_not_approved">Vaš račun ni odobren. Prosimo kontaktirajte skrbnika trgovine.</item>
+        <item lang="sl" id="error_account_declined">Vaš račun je zavrnjen. Prosimo kontaktirajte skrbnika trgovine.</item>
+        <item lang="sl" id="text_partner_create_profile">Najprej morate prejeti e-pošto z odobritvijo, potem se lahko prijavite.</item>
+        <item lang="sl" id="affiliates">Partnerski programi</item>
+        <item lang="sl" id="affiliate_code">Koda partnerskega programa</item>
+        <item lang="sl" id="affiliate_commissions">Provizije za partnerski program</item>
+        <item lang="sl" id="related_actions">Podobni ukrepi</item>
+        <item lang="sl" id="disapprove_commissions">Zavrnjena provizija</item>
+        <item lang="sl" id="delete_commissions">Brisanje provizije</item>
+        <item lang="sl" id="approve_commissions">Odobri provizije</item>
+        <item lang="sl" id="count">Šteti</item>
+        <item lang="sl" id="sum">Vsota</item>
+        <item lang="sl" id="show_zero_actions">Prikaži nična dejanja</item>
+        <item lang="sl" id="not_show">Ne kaži</item>
+        <item lang="sl" id="only_zero_actions">Le nična dejanja</item>
+        <item lang="sl" id="affiliate_settings">Sistemske nastavitve partnerskega programa</item>
+        <item lang="sl" id="plans">Plani</item>
+        <item lang="sl" id="method_based_selling_price">Način izračuna provizije temelji na ceni proizvoda</item>
+        <item lang="sl" id="coupon_commission_overide_all">Provizija kupona bi morala imeti prednost pred vsemi ostalimi</item>
+        <item lang="sl" id="add_selected">Dodaj izbrano</item>
+        <item lang="sl" id="add_commissions_multi_affiliates">Dodaj provizijo/e več-nivojskemu partnerskemu programu</item>
+        <item lang="sl" id="add_commissions">Dodaj komisijo</item>
+        <item lang="sl" id="add_coupons">Dodaj kupon/e</item>
+        <item lang="sl" id="new_plan">Nov načrt</item>
+        <item lang="sl" id="editing_plan">Urejanje načrta</item>
+        <item lang="sl" id="product_group">Skupina proizvodov</item>
+        <item lang="sl" id="refresh_banner">Osveži oglasno pasico</item>
+        <item lang="sl" id="align">Poravnaj</item>
+        <item lang="sl" id="show_border">Prikaži mejo</item>
+        <item lang="sl" id="show_title">Prikaži naslov</item>
+        <item lang="sl" id="show_url">Prikaži URL</item>
+        <item lang="sl" id="new_window">Novo okno</item>
+        <item lang="sl" id="affiliate_tiers_tree">Nivojsko drevo partnerskega programa</item>
+        <item lang="sl" id="without_plan">Brez načrta</item>
+        <item lang="sl" id="personal_information">Osebne informacije</item>
+        <item lang="sl" id="edit_affiliate">Uredi članstvo</item>
+        <item lang="sl" id="viewing_affiliate">Pregledovanje posredniškega programa</item>
+        <item lang="sl" id="checking_min_payment">Prikaži le plačila z minimalnim številom pridržanih sredstev</item>
+        <item lang="sl" id="checking_payment_period">Prikaži le zapadla plačila</item>
+        <item lang="sl" id="amount_of_approved_actions">Količina odobrenih dejanja</item>
+        <item lang="sl" id="amount_of_awaiting_approval_actions">Količina dejanj, ki čakajo na odobritev</item>
+        <item lang="sl" id="date_of_last_payment">Datum zadnjega plačila</item>
+        <item lang="sl" id="pay_affiliates">Plačila partnerskega programa</item>
+        <item lang="sl" id="last_payout">Zadnje izplačilo</item>
+        <item lang="sl" id="avg_payout">Povprečno izplačilo</item>
+        <item lang="sl" id="view_history">Oglej si zgodovino</item>
+        <item lang="sl" id="accounting_history">Zgodovina računa</item>
+        <item lang="sl" id="add_group_for_categories">Dodaj skupino za kategorije</item>
+        <item lang="sl" id="add_group_for_products">Dodaj skupino za proizvode</item>
+        <item lang="sl" id="add_url_group">Dodaj url skupino</item>
+        <item lang="sl" id="email_approved_notification_header">Hvala, ker ste se registrirali v naš partnerski program [company]. Vaš račun je odobren.</item>
+        <item lang="sl" id="email_subj_approved">Vaš račun je odobren</item>
+        <item lang="sl" id="email_declined_notification_header">Vaš račun je zavrnjen.</item>
+        <item lang="sl" id="email_subj_declined">Vaš račun je zavrnjen</item>
+        <item lang="sl" id="top">Vrh</item>
+        <item lang="sl" id="bottom">Dno</item>
+
+        <item lang="zh" id="deleted_banners">删除横幅</item>
+        <item lang="zh" id="undeleted_banners">未删除的横幅</item>
+        <item lang="zh" id="error_no_data">没有收到有效的数据</item>
+        <item lang="zh" id="banner_deleted">已成功删除横幅.</item>
+        <item lang="zh" id="group_for_category">目录组</item>
+        <item lang="zh" id="group_for_product">产品组</item>
+        <item lang="zh" id="deleted_product_groups">删除的产品组</item>
+        <item lang="zh" id="undeleted_product_groups">未删除的产品组</item>
+        <item lang="zh" id="error_payout_gt_balance">支出不能超过网站联盟的余额.</item>
+        <item lang="zh" id="error_account_not_approved">您的网站联盟帐户未被批准. 请联系站点管理人员.</item>
+        <item lang="zh" id="error_account_declined">您的网站联盟帐户被拒绝.请联系站点管理人员.</item>
+        <item lang="zh" id="text_partner_create_profile">首先您应该收到一封批准的电子邮件消息，然后您才可以登录.</item>
+        <item lang="zh" id="affiliates">网站联盟</item>
+        <item lang="zh" id="affiliate_code">网站联盟代码</item>
+        <item lang="zh" id="affiliate_commissions">网站联盟佣金</item>
+        <item lang="zh" id="related_actions">相关动作</item>
+        <item lang="zh" id="disapprove_commissions">未核准的佣金</item>
+        <item lang="zh" id="delete_commissions">删除佣金</item>
+        <item lang="zh" id="approve_commissions">核准佣金</item>
+        <item lang="zh" id="count">计算</item>
+        <item lang="zh" id="sum">金额</item>
+        <item lang="zh" id="avg">平均值</item>
+        <item lang="zh" id="plan">计划</item>
+        <item lang="zh" id="show_zero_actions">显示零动作</item>
+        <item lang="zh" id="not_show">不显示</item>
+        <item lang="zh" id="only_zero_actions">只有零操作</item>
+        <item lang="zh" id="affiliate_settings">网站联盟系统设置</item>
+        <item lang="zh" id="plans">计划</item>
+        <item lang="zh" id="method_based_selling_price">根据产品价格计算佣金</item>
+        <item lang="zh" id="coupon_commission_overide_all">优惠券佣金须覆盖其他的</item>
+        <item lang="zh" id="add_selected">添加被选</item>
+        <item lang="zh" id="add_commissions_multi_affiliates">添加佣金给网站联盟</item>
+        <item lang="zh" id="add_commissions">添加佣金</item>
+        <item lang="zh" id="add_coupons">添加礼卷</item>
+        <item lang="zh" id="new_plan">新的计划</item>
+        <item lang="zh" id="editing_plan">编辑计划</item>
+        <item lang="zh" id="product_group">产品组</item>
+        <item lang="zh" id="refresh_banner">提交者横幅</item>
+        <item lang="zh" id="align">调整</item>
+        <item lang="zh" id="center">中心</item>
+        <item lang="zh" id="show_border">显示边框</item>
+        <item lang="zh" id="show_title">显示标题</item>
+        <item lang="zh" id="show_url">显示 URL</item>
+        <item lang="zh" id="new_window">新窗口</item>
+        <item lang="zh" id="affiliate_tiers_tree">网站联盟等级树</item>
+        <item lang="zh" id="without_plan">没有计划</item>
+        <item lang="zh" id="personal_information">个人信息</item>
+        <item lang="zh" id="edit_affiliate">编辑网站联盟</item>
+        <item lang="zh" id="viewing_affiliate">查看网站联盟</item>
+        <item lang="zh" id="checking_min_payment">支付仅具有最低版本级别</item>
+        <item lang="zh" id="checking_payment_period">仅预付款</item>
+        <item lang="zh" id="amount_of_approved_actions">经批准的操作的数量</item>
+        <item lang="zh" id="amount_of_awaiting_approval_actions">等待审批的操作的数量</item>
+        <item lang="zh" id="date_of_last_payment">上次付款时间</item>
+        <item lang="zh" id="pay_affiliates">支付给网站联盟</item>
+        <item lang="zh" id="last_payout">最后支出</item>
+        <item lang="zh" id="avg_payout">平均支出</item>
+        <item lang="zh" id="view_history">查看历史</item>
+        <item lang="zh" id="accounting_history">帐户历史</item>
+        <item lang="zh" id="add_group_for_categories">添加分类组</item>
+        <item lang="zh" id="add_group_for_products">添加产品组</item>
+        <item lang="zh" id="add_url_group">添加URL组</item>
+        <item lang="zh" id="email_approved_notification_header">感谢您注册为网站联盟[company]. 您的帐户已激活.</item>
+        <item lang="zh" id="email_subj_approved">您的帐户已被批准.</item>
+        <item lang="zh" id="email_declined_notification_header">您的帐户被拒绝</item>
+        <item lang="zh" id="email_subj_declined">您的帐户被拒绝.</item>
+        <item lang="zh" id="top">顶部</item>
+        <item lang="zh" id="bottom">底部</item>
+        <item lang="bg" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">Ако тази опция е включена, всички комисионни са отменени с изключение на комисионната на купона.</item>
+
+        <item lang="da" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">Hvis aktiveret, kupon Kommissionen annullerer de andre kommissioner.</item>
+
+        <item lang="el" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">Εάν είναι ενεργοποιημένοι προμήθεια του κουπονιού ακυρώνει τις άλλες προμήθειες.</item>
+
+        <item lang="it" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">Se abilitato, il coupon annulla le altre autorizzazioni</item>
+
+        <item lang="nl" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">Indien ingeschakeld worden zorgt het gebruik van een kortingsbon commissie dat alle andere commissies genegeerd worden.</item>
+
+        <item lang="no" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">Hvis aktivert, vil kupongprovisjon annullere de andre provisjonene.</item>
+
+        <item lang="ro" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">Dacă este activat, cupoun comision anulează alte comisioane.</item>
+
+        <item lang="ru" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">Если опция включена, аннулируются все комиссии, кроме комиссии купона.</item>
+
+        <item lang="zh" id="tt_addons_affiliate_views_affiliate_plans_update_coupon_commission_override_all">如果启用,优惠卷佣金会抵消其他佣金</item>
+        <item lang="bg" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">Ако падащия списък съдържа само стойността "Няма", означава, че не са определени продуктови групи.</item>
+
+        <item lang="el" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">Εάν το κουτάκι επιλογής περιέχει μόνο το  Καμία  αξία, αυτό σημαίνει ότι οι κατηγορίες  προϊόντων δεν καθορίζονται.</item>
+
+        <item lang="it" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">Se la casella di selezione contiene solo il valore 'Nessuno', vuol dire che i gruppi dei prodotti non sono specificati.\n</item>
+
+        <item lang="nl" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">Als de select-box alleen de "Geen" optie bevat, zijn er geen productgroepen gedefinieerd.</item>
+
+        <item lang="no" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">Hvis velger boksen inneholder bare "None" verdi, betyr det at produktet grupper ikke spesifisert.</item>
+
+        <item lang="ro" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">Dacă căsuța selectată conține doar valoarea 'Nici una', înseamnă că grupurile produsului nu sunt specificate.</item>
+
+        <item lang="ru" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">Если выпадающий список содержит только значение 'Пусто', это означает, что группы товаров не заданы.</item>
+
+        <item lang="zh" id="tt_addons_affiliate_views_banners_manager_components_graphic_banner_update_product_group">如果选择框中包只含'无'值,它意味着没有指定产品组.</item>
+        <item lang="bg" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">Ако падащия списък съдържа само стойността "Няма", означава, че не са определени продуктови групи.</item>
+        <item lang="bg" id="affilate_banners_manager">Банери</item>
+        <item lang="bg" id="affiliate_partners">партньори</item>
+
+        <item lang="el" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">Εάν το κουτάκι επιλογής περιέχει μόνο το  Καμία  αξία, αυτό σημαίνει ότι οι κατηγορίες  προϊόντων δεν καθορίζονται.</item>
+        <item lang="el" id="affiliate_partners">Συνεργάζόμενοι</item>
+
+        <item lang="it" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">Se la casella di selezione contiene solo il valore di 'Nessuno', vuol dire che i gruppi di prodotti non sono specificati.\n</item>
+        <item lang="it" id="affilate_banners_manager">Banner</item>
+        <item lang="it" id="affiliate_partners">Affiliati</item>
+
+        <item lang="nl" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">Als de select-box alleen de "Geen" optie bevat, zijn er geen productgroepen gedefinieerd.</item>
+
+        <item lang="no" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">Hvis den velger boksen inneholder bare "None" verdi, betyr det at produktet grupper ikke spesifisert.</item>
+
+        <item lang="ro" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">Dacă căsuța selectată conține valoarea 'Nici una', înseamnă că grupurile produsului nu au fost specificate.</item>
+
+        <item lang="ru" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">Если выпадающий список содержит только значение 'Пусто', это означает, что группы товаров не заданы.</item>
+        <item lang="ru" id="affilate_banners_manager">Баннеры</item>
+        <item lang="ru" id="affiliate_partners">Партнеры</item>
+
+        <item lang="zh" id="tt_addons_affiliate_views_banners_manager_components_text_banner_update_product_group">如果选择框中包只含'无'值,它意味着没有指定产品组.</item>
+        <item lang="zh" id="affilate_banners_manager">横幅</item>
+        <item lang="zh" id="affiliate_partners">网站联盟</item>
+    </language_variables>
+    <settings>
+        <sections>
+            <section id="general">
+                <name>General</name>
+                <items>
+                    <item id="show_affiliate_code">
+                        <name>Show affiliate code at front-end</name>
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <translations>
+                            <item lang="es">Mostrar códico de afiliado en el front-end (parte del cliente)</item>
+                            <item lang="el">Show affiliate code at front-end </item>
+                            <item lang="ro">Afișează codul afilat pe site</item>
+                            <item lang="ru">Показывать код партнера в витрине магазина</item>
+                            <item lang="sl">Prikaži kodo partnerskega programa na prvi strani</item>
+                            <item lang="zh">在前台显示联盟代码</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="payment_period">
+                        <name>Payment period</name>
+                        <type>selectbox</type>
+                        <default_value>1w</default_value>
+                        <variants>
+                            <item id="1w">
+                                <name>1 week</name>
+                                <translations>
+                                    <item lang="es">1 semana</item>
+                                    <item lang="fr">1 semaine</item>
+                                    <item lang="el">1 εβδομάδα</item>
+                                    <item lang="ro">odată pe săptămână</item>
+                                    <item lang="ru">1 неделя</item>
+                                    <item lang="sl">1 teden</item>
+                                    <item lang="zh">1 周</item>
+                                </translations>
+                            </item>
+                            <item id="2w">
+                                <name>twice a month</name>
+                                <translations>
+                                    <item lang="es">dos veces al mes</item>
+                                    <item lang="fr">bimensuelle</item>
+                                    <item lang="el">Δυο φορές τον μήνα</item>
+                                    <item lang="ro">de 2 ori pe săptămână</item>
+                                    <item lang="ru">дважды в месяц</item>
+                                    <item lang="sl">dvakrat mesečno</item>
+                                    <item lang="zh">每月两次</item>
+                                </translations>
+                            </item>
+                            <item id="1m">
+                                <name>1 month</name>
+                                <translations>
+                                    <item lang="es">1 mes</item>
+                                    <item lang="fr">1 mois</item>
+                                    <item lang="el">1 μήνας</item>
+                                    <item lang="ro">odată pe lună</item>
+                                    <item lang="ru">1 месяц</item>
+                                    <item lang="sl">1 mesec</item>
+                                    <item lang="zh">1 月</item>
+                                </translations>
+                            </item>
+                        </variants>
+                        <translations>
+                            <item lang="es">Preiodo de pago</item>
+                            <item lang="fr">Période de paiement</item>
+                            <item lang="da">Betaling periode</item>
+                            <item lang="el">Περίοδος πληρωμής</item>
+                            <item lang="ro">Termenul de plată</item>
+                            <item lang="ru">Период оплаты</item>
+                            <item lang="sl">Plačilo obdobje</item>
+                            <item lang="zh">支付周期</item>
+                        </translations>
+                    </item>
+                    <item id="number_last_periods">
+                        <name>Number of last periods</name>
+                        <type>input</type>
+                        <default_value>10</default_value>
+                        <translations>
+                            <item lang="es">Número de períodos pasados</item>
+                            <item lang="da">Antal sidste perioder</item>
+                            <item lang="el">Αριθμός των τελευταίων περιόδων</item>
+                            <item lang="ro">Numărul ultimelor perioade</item>
+                            <item lang="ru">Количество последних периодов</item>
+                            <item lang="sl">Število zadnjih obdobij</item>
+                            <item lang="zh">最后周期数</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="automatic_approval_commissions">
+                        <name>Automatic approval of affiliate commissions</name>
+                        <type>checkbox</type>
+                        <default_value/>
+                        <translations>
+                            <item lang="es">Aprobación automática de comisiones de afiliado</item>
+                            <item lang="da">Automatisk godkendelse af affiliate provisioner</item>
+                            <item lang="el">Αυτόματη έγκριση προμηθειών συνεργατών</item>
+                            <item lang="ro">Aprobare automată a comisioanelor de afiliere</item>
+                            <item lang="ru">Автоматическое утверждение партнерской комиссии</item>
+                            <item lang="sl">Samodejna odobritev provizije partnerskega programa</item>
+                            <item lang="zh">自动审核联盟佣金</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="elm_text_banner">
+                        <name>Text banner</name>
+                        <type>header</type>
+                        <handler/>
+                        <translations>
+                            <item lang="es">Banner de texto</item>
+                            <item lang="fr">Bannière texte</item>
+                            <item lang="da">Tekst banner</item>
+                            <item lang="el">Βanner κειμένου</item>
+                            <item lang="ro">Banner text</item>
+                            <item lang="ru">Текстовый баннер</item>
+                            <item lang="sl">Besedilna oglasna pasica</item>
+                            <item lang="zh">文本横幅</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="out_line_clor">
+                        <name>Outline color</name>
+                        <type>input</type>
+                        <default_value>#DEDEDE</default_value>
+                        <translations>
+                            <item lang="es">Color de contorno</item>
+                            <item lang="fr">OutlineColor</item>
+                            <item lang="el">Χρώμα περιγράμματος</item>
+                            <item lang="ro">Culoare conturului</item>
+                            <item lang="ru">Цвет контура</item>
+                            <item lang="sl">Barva orisa</item>
+                            <item lang="zh">边框颜色</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="title_text_color">
+                        <name>Title text color</name>
+                        <type>input</type>
+                        <default_value>#0088CC</default_value>
+                        <translations>
+                            <item lang="es">Color del texto de título</item>
+                            <item lang="fr">TitleTextColor</item>
+                            <item lang="da">Titel tekstfarve</item>
+                            <item lang="el">Χρώμα τίτλου κειμένου</item>
+                            <item lang="ro">Culoarea textului de titlu</item>
+                            <item lang="ru">Цвет заголовка</item>
+                            <item lang="sl">Barva besedila naslova</item>
+                            <item lang="zh">文本标题颜色</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="text_color">
+                        <name>Text color</name>
+                        <type>input</type>
+                        <default_value>#333333</default_value>
+                        <translations>
+                            <item lang="es">Color de texto</item>
+                            <item lang="fr">TextColor</item>
+                            <item lang="da">Tekstfarve</item>
+                            <item lang="el">Χρώμα κειμένου</item>
+                            <item lang="ro">Culoarea textului</item>
+                            <item lang="ru">Цвет текста</item>
+                            <item lang="sl">Barva besedila</item>
+                            <item lang="zh">文本颜色</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="text_background_color">
+                        <name>Text background color</name>
+                        <type>input</type>
+                        <default_value>#FFFFFF</default_value>
+                        <translations>
+                            <item lang="es">Color de fondo de texto</item>
+                            <item lang="fr">TextBackgroundColor</item>
+                            <item lang="da">Tekst baggrundsfarve</item>
+                            <item lang="el">Χρώμα φόντου του κειμένου</item>
+                            <item lang="ro">Culoarea de fundal a textului</item>
+                            <item lang="ru">Цвет фона текста</item>
+                            <item lang="sl">Barva ozadja besedila</item>
+                            <item lang="zh">文本背景颜色</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="elm_discount_coupons">
+                        <name>Discount Coupons</name>
+                        <type>header</type>
+                        <handler/>
+                        <translations>
+                            <item lang="es">Cupones descuentos</item>
+                            <item lang="fr">Bons de réductions</item>
+                            <item lang="da">Rabatkupon</item>
+                            <item lang="el">Εκπτωτικά κουπόνια</item>
+                            <item lang="ro">Cupoane discounturi</item>
+                            <item lang="ru">Купоны на скидку</item>
+                            <item lang="sl">Kuponi za popust</item>
+                            <item lang="zh">优惠券</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="use_affiliate_id">
+                        <name>Affiliate ID is used as coupon prefix</name>
+                        <type>checkbox</type>
+                        <default_value>N</default_value>
+                        <translations>
+                            <item lang="es">La ID del afiliado es usada como el prefijo de cupón</item>
+                            <item lang="fr">Partner ID is used as coupon prefix</item>
+                            <item lang="el">Το ID συνεργατών χρησιμοποιείται για το πρόθεμα των κουπονιών</item>
+                            <item lang="ro">ID-ul afiliatului va fi folosit ca prefix la cuponul de discount</item>
+                            <item lang="ru">Использовать ID партнёра как префикс для купона</item>
+                            <item lang="sl">ID partnerskega programa se uporabi kot predpona kupona</item>
+                            <item lang="zh">联盟ID作为优惠券前缀</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                    <item id="coupon_prefix_delim">
+                        <name>Delimiter between prefix and coupon-code</name>
+                        <type>input</type>
+                        <default_value>-</default_value>
+                        <translations>
+                            <item lang="es">Delimitador entre el prefijo y el código del cupón</item>
+                            <item lang="el">Οριοθέτη μεταξύ προθέματος και κωδικού κουπονιού</item>
+                            <item lang="ro">Delimitatorul dintre prefix și codul cuponului</item>
+                            <item lang="ru">Разделитель между префиксом и кодом купона</item>
+                            <item lang="sl">Ločilo med predpono in kuponom</item>
+                            <item lang="zh">前缀和优惠券代码之间的分隔符</item>
+                        </translations>
+                        <variants/>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <queries>
+        <item for="demo" type='file'>database/demo.sql</item>
+        <item for="demo" type='file' lang="en" table="aff_banner_descriptions">database/demo_banners_en.sql</item>
+        <item for="demo" type='file' lang="en" table="aff_group_descriptions">database/demo_groups_en.sql</item>
+        <item for="demo" type='file' editions="ULTIMATE">database/demo_ultimate.sql</item>
+        <item>DROP TABLE IF EXISTS ?:affiliate_payouts;</item>
+        <item>DROP TABLE IF EXISTS ?:affiliate_plans;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_action_links;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_banners;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_banner_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_group_descriptions;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_groups;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_partner_actions;</item>
+        <item>DROP TABLE IF EXISTS ?:aff_partner_profiles;</item>
+        <item>
+            CREATE TABLE `?:affiliate_payouts` (
+                `payout_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `partner_id` mediumint(8) unsigned NOT NULL default '0',
+                `amount` decimal(12,2) NOT NULL default '0.00',
+                `date` int(11) unsigned NOT NULL default '0',
+                `status` char(1) NOT NULL default 'O',
+                PRIMARY KEY  (`payout_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:affiliate_plans` (
+                `plan_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `payout_types` text NOT NULL,
+                `commissions` varchar(255) NOT NULL default '',
+                `min_payment` decimal(12,2) NOT NULL default '0.00',
+                `product_ids` text NOT NULL,
+                `category_ids` text NOT NULL,
+                `promotion_ids` text NOT NULL,
+                `cookie_expiration` int(11) unsigned NOT NULL default '0',
+                `method_based_selling_price` char(1) NOT NULL default 'N',
+                `use_coupon_commission` char(1) NOT NULL default 'N',
+                `status` char(1) NOT NULL default 'A',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`plan_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:aff_action_links` (
+                `action_id` mediumint(8) unsigned NOT NULL default '0',
+                `object_data` varchar(255) NOT NULL default '',
+                `object_type` char(1) NOT NULL default '',
+                PRIMARY KEY  (`action_id`,`object_type`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="PROFESSIONAL,MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_affiliate', 'Y', 'affiliate');</item>
+        <item>
+            CREATE TABLE `?:aff_banners` (
+                `banner_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `width` int(4) unsigned NOT NULL default '120',
+                `height` int(4) unsigned NOT NULL default '60',
+                `type` char(1) NOT NULL default 'T',
+                `link_to` char(1) NOT NULL default 'U',
+                `data` varchar(255) NOT NULL default '',
+                `show_title` char(1) NOT NULL default 'Y',
+                `text_location` char(1) NOT NULL default 'B',
+                `new_window` char(1) NOT NULL default 'N',
+                `to_cart` char(1) NOT NULL default 'N',
+                `show_url` char(1) NOT NULL default 'N',
+                `status` char(1) NOT NULL default 'A',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`banner_id`),
+                KEY `type_linkto` (`type`,`link_to`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:aff_banner_descriptions` (
+                `banner_id` mediumint(8) unsigned NOT NULL default '0',
+                `title` varchar(64) NOT NULL default '',
+                `content` varchar(255) NOT NULL default '',
+                `alt` varchar(64) NOT NULL default '',
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY (`banner_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:aff_group_descriptions` (
+                `group_id` mediumint(8) unsigned NOT NULL default '0',
+                `name` char(64) NOT NULL default '',
+                `lang_code` char(2) NOT NULL default '',
+                PRIMARY KEY  (`group_id`,`lang_code`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:aff_groups` (
+                `group_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `link_to` char(1) NOT NULL default 'U',
+                `data` char(255) NOT NULL default '',
+                `status` char(1) NOT NULL default 'A',
+                `company_id` int(11) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`group_id`),
+                KEY `link_to` (`link_to`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:aff_partner_actions` (
+                `action_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `banner_id` mediumint(8) unsigned NOT NULL default '0',
+                `partner_id` mediumint(8) unsigned NOT NULL default '0',
+                `plan_id` mediumint(8) unsigned NOT NULL default '0',
+                `customer_id` mediumint(8) unsigned NOT NULL default '0',
+                `date` int(11) unsigned NOT NULL default '0',
+                `ip` varchar(255) NOT NULL default '',
+                `action` varchar(32) NOT NULL default '',
+                `amount` decimal(12,2) NOT NULL default '0.00',
+                `approved` char(1) NOT NULL default 'N',
+                `payout_id` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`action_id`),
+                KEY `parnerid_approved_date_payoutid` (`partner_id`,`approved`,`date`,`payout_id`,`amount`),
+                KEY `action_date_amount_approved_payoutid` (`action`,`date`,`amount`,`approved`,`payout_id`),
+                KEY `data_approved_payoutid` (`approved`,`payout_id`),
+                KEY `amount` (`amount`),
+                KEY `partnerid_date` (`partner_id`,`date`),
+                KEY `payout_id` (`payout_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item>
+            CREATE TABLE `?:aff_partner_profiles` (
+                `user_id` mediumint(8) unsigned NOT NULL default '0',
+                `approved` char(1) NOT NULL default 'N',
+                `plan_id` mediumint(8) unsigned NOT NULL default '0',
+                `balance` decimal(12,2) NOT NULL default '0.00',
+                `referrer_partner_id` mediumint(8) unsigned NOT NULL default '0',
+                PRIMARY KEY  (`user_id`)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item editions="PROFESSIONAL,MULTIVENDOR,ULTIMATE">REPLACE INTO ?:privileges (privilege, is_default, section_id) VALUES ('manage_affiliate', 'Y', 'addons');</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:affiliate_payouts;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:affiliate_plans;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_action_links;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_banners;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_banner_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_group_descriptions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_groups;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_partner_actions;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:aff_partner_profiles;</item>
+        <item for="uninstall" editions="PROFESSIONAL,MULTIVENDOR,ULTIMATE">DELETE FROM ?:privileges WHERE privilege = 'manage_affiliate'</item>
+    </queries>
+</addon>
