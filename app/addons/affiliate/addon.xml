@@ -313,7 +313,217 @@
         <item id="click_vs_show" lang="da">Procentdel af banner klik og banner viser</item>
         <item id="click_vs_show" lang="fr">Pourcentage des clics et affichages de bannières</item>
         <item id="click_vs_show" lang="es">Porcentaje de anuncios mostrados y anuncios visitados</item>
-        <item id="click_vs_show" lang="no">Andel bannerklikk og bannervisninger</item>        
+        <item id="click_vs_show" lang="no">Andel bannerklikk og bannervisninger</item>
+
+        <item id="approve_commissions_menu_description" lang="en">Approve or disapprove affiliate commission.</item>
+        <item id="approve_commissions_menu_description" lang="ru">Одобрение/отклонение комиссии партнеров. </item>
+        <item id="approve_commissions_menu_description" lang="it">Approva o nega le commissioni degli affiliati </item>
+        <item id="approve_commissions_menu_description" lang="el">Έγκριση ή όχι της προμήθειας του συνεργαζόμενου.</item>
+        <item id="approve_commissions_menu_description" lang="bg">Одобри или отхвърли комисионна на партньор</item>
+
+        <item id="accounting_history_menu_description" lang="en">Summary of the commission payments in your store.</item>
+        <item id="accounting_history_menu_description" lang="ru">Список всех комиссионных выплат вашего магазина.</item>
+        <item id="accounting_history_menu_description" lang="zh">在您商店中的佣金支付总结.</item>
+        <item id="accounting_history_menu_description" lang="it">Sommario pagamenti delle commissioni del negozio</item>
+        <item id="accounting_history_menu_description" lang="el">Συνοπτική παρουσίαση των προμηθειών πληρωμών στο κατάστημα.</item>
+        <item id="accounting_history_menu_description" lang="bg">Обобщение на комисионните плащания във вашия магазин.</item>
+
+        <item id="link_new_affiliate" lang="en">Link to add a new affiliate</item>
+        <item id="link_new_affiliate" lang="ru">Ссылка для добавления партнера</item>
+        <item id="link_new_affiliate" lang="it">Link per aggiungere un nuovo affiliato</item>
+        <item id="link_new_affiliate" lang="el">Σύνδεσμος για προσθήκη καινούργιου συστήματος ανταπόδοσης (Affiliate)</item>
+        <item id="link_new_affiliate" lang="bg">Връзка за добавяне на нов афилейт</item>
+        <item id="link_new_affiliate" lang="ro">Link pentru a adăuga un affiliate nou</item>
+        <item id="link_new_affiliate" lang="sl">Povezava za vpis v partnerski program</item>
+        <item id="link_new_affiliate" lang="no">Link for å legge til en ny affiliate</item>
+        <item id="link_new_affiliate" lang="da">Link til at tilføje en ny partner</item>
+        <item id="link_new_affiliate" lang="fr">Lien pour ajouter un nouveau partenaire</item>
+        <item id="link_new_affiliate" lang="es">Enlace para añadir nuevo afiliado</item>
+
+        <item id="multi_tier_affiliates" lang="en">Multi tier affiliates</item>
+        <item id="multi_tier_affiliates" lang="ru">Многоуровневые партнеры</item>
+        <item id="multi_tier_affiliates" lang="it">Affiliati multi-livello</item>
+        <item id="multi_tier_affiliates" lang="el">Πολλαπλές βαθμίδες συνεργατών</item>
+        <item id="multi_tier_affiliates" lang="bg">Multi tier афилейти</item>
+        <item id="multi_tier_affiliates" lang="ro">Affiliate-uri multi etajate</item>
+        <item id="multi_tier_affiliates" lang="sl">Več-nivojski partnerski program</item>
+        <item id="multi_tier_affiliates" lang="no">Multi tier partnere</item>
+        <item id="multi_tier_affiliates" lang="da">Multi lag Partner</item>
+        <item id="multi_tier_affiliates" lang="fr">Affiliés multi-tiers</item>
+        <item id="multi_tier_affiliates" lang="es">Afiliados multinivel</item>
+
+        <item id="payouts_menu_description" lang="en">List of all monetary commission payments to the affiliates.</item>
+        <item id="payouts_menu_description" lang="ru">Список всех комиссионных денежных выплат партнерам.</item>
+        <item id="payouts_menu_description" lang="it">Elenco di tutte le commissioni monetarie dei pagamenti agli affiliati.</item>
+        <item id="payouts_menu_description" lang="el">Λίστα όλων των πληρωμών των χρηματικών επιτροπών για τους συνεργάτες.</item>
+        <item id="payouts_menu_description" lang="bg">Списък на всички парични плащания на афилейти.</item>
+
+        <item id="payout_new_partner" lang="en">New affiliate</item>
+        <item id="payout_new_partner" lang="ru">Новый партнер</item>
+        <item id="payout_new_partner" lang="it">Nuovo affiliato</item>
+        <item id="payout_new_partner" lang="el">Νέα συνεργασία</item>
+        <item id="payout_new_partner" lang="bg">Нов филиал</item>
+        <item id="payout_new_partner" lang="ro">Affiliat nou</item>
+        <item id="payout_new_partner" lang="sl">Nov partnerski program</item>
+        <item id="payout_new_partner" lang="no">Ny affiliate</item>
+        <item id="payout_new_partner" lang="da">ny partner</item>
+        <item id="payout_new_partner" lang="fr">Nouvel affilié</item>
+        <item id="payout_new_partner" lang="es">Nuevo afiliado</item>
+
+        <item id="pay_affiliates_menu_description" lang="en">Process payments that your affiliates have earned as a commission.</item>
+        <item id="pay_affiliates_menu_description" lang="ru">Оплата комиссионных, которые заработали партнеры.</item>
+        <item id="pay_affiliates_menu_description" lang="it">Processa i pagamenti che i tuoi affiliati si sono guadagnati da una commissione.</item>
+        <item id="pay_affiliates_menu_description" lang="el">Διαδικασία πληρωμών που έχουν κερδίσει οι συνεργάτες σας σαν προμήθεια.</item>
+        <item id="pay_affiliates_menu_description" lang="bg">Направете плащане на комисионни, които са спечелили партньори.</item>
+
+        <item id="plans_menu_description" lang="en">Create and configure affiliate plans.</item>
+        <item id="plans_menu_description" lang="ru">Созданиеи настройка партнерских планов.</item>
+        <item id="plans_menu_description" lang="it">Crea e configura programmi di affiliazione.</item>
+        <item id="plans_menu_description" lang="el">Δημιουργία και ρυθμίσεις πλάνων συνεργατών.</item>
+        <item id="plans_menu_description" lang="bg">Създаване и конфигуриране на партньорски планове.</item>
+
+        <item id="product_groups_menu_description" lang="en">Define groups of products that can then be pointed to by the affiliate banners.</item>
+        <item id="product_groups_menu_description" lang="ru">создание группы товаров, на которые будут указывать баннеры партнеров.</item>
+        <item id="product_groups_menu_description" lang="it">Definire i gruppi di prodotti che possono poi essere indicati dai banner di affiliazione</item>
+        <item id="product_groups_menu_description" lang="el">Επιλογή ομάδων προϊόντων που μπορούν να χρησιμοποιηθούν σαν ανταποδοτικό banner συνεργαζόμενου.</item>
+        <item id="product_groups_menu_description" lang="bg">Дефиниране на групи от продукти, които могат да бъдат посочвани от партньорските банери.</item>
+
+        <item id="text_no_affiliate_assigned" lang="en">No affiliate plan has been assigned to your account yet</item>
+        <item id="text_no_affiliate_assigned" lang="ru">Для вашего аккаунта ещё не были заданы партнёрские планы</item>
+        <item id="text_no_affiliate_assigned" lang="it">Nessun programma di affiliazione è stato assegnato al tuo account</item>
+        <item id="text_no_affiliate_assigned" lang="el">Δεν ανατέθηκε πρόγραμμα ανταπόδοσης ακόμα στον λογαριασμό σας</item>
+        <item id="text_no_affiliate_assigned" lang="bg">Няма партньорски планове към акаунта Ви.</item>
+        <item id="text_no_affiliate_assigned" lang="ro">Momentan nici un plan de affiliere nu a fost asimilat contului dvs.</item>
+        <item id="text_no_affiliate_assigned" lang="sl">Noben partnerski program še ni bil dodeljen na vaš račun</item>
+        <item id="text_no_affiliate_assigned" lang="no">Ingen affiliate plan har vært knyttet til kontoen din ennå</item>
+        <item id="text_no_affiliate_assigned" lang="da">Ingen apartner Planen er blevet tildelt til din konto endnu</item>
+
+        <item id="no_payouts_found" lang="en">No payouts found</item>
+        <item id="no_payouts_found" lang="ru">Выплаты не найдены</item>
+        <item id="no_payouts_found" lang="zh">没有找到支付</item>
+        <item id="no_payouts_found" lang="it">Nessun pagamento trovato</item>
+        <item id="no_payouts_found" lang="el">Δεν βρέθηκαν πληρωμές</item>
+        <item id="no_payouts_found" lang="bg">Няма намерени плащания</item>
+        <item id="no_payouts_found" lang="ro">Nici o plată găsită.</item>
+        <item id="no_payouts_found" lang="sl">Ne najdem nobenih izplačil</item>
+        <item id="no_payouts_found" lang="no">Ingen utbetalinger funnet</item>
+        <item id="no_payouts_found" lang="da">Ingen udbetalinger fundet</item>
+        <item id="no_payouts_found" lang="fr">Aucun versement trouvé</item>
+        <item id="no_payouts_found" lang="es">Ninguna liquidación encontrada</item>
+
+        <item id="total_payouts" lang="en">Total payouts</item>
+        <item id="total_payouts" lang="ru">Итоговые выплаты</item>
+        <item id="total_payouts" lang="zh">总支出</item>
+        <item id="total_payouts" lang="it">Pagamenti totali</item>
+        <item id="total_payouts" lang="el">Σύνολο αποπληρωμών</item>
+        <item id="total_payouts" lang="bg">Общо изплащания</item>
+        <item id="total_payouts" lang="ro">Plăți totale</item>
+        <item id="total_payouts" lang="sl">Skupna izplačila</item>
+        <item id="total_payouts" lang="no">Sum utbetalinger</item>
+        <item id="total_payouts" lang="da">Total udbetaling</item>
+        <item id="total_payouts" lang="fr">Total des versements</item>
+        <item id="total_payouts" lang="es">Total de liquidaciones</item>
+
+        <item id="aff_cookie_expiration" lang="en">Life span of customer cookie (days)</item>
+        <item id="aff_cookie_expiration" lang="ru">Время хранения cookie покупателей (в днях)</item>
+        <item id="aff_cookie_expiration" lang="zh">客户cookie储存 (天)</item>
+        <item id="aff_cookie_expiration" lang="it">Intervallo temporale validità del cookie cliente (giorni)</item>
+        <item id="aff_cookie_expiration" lang="el">Διάρκεια ζωής των cookie στους πελάτες (μέρες)</item>
+        <item id="aff_cookie_expiration" lang="bg">Живот на клиентските \бисквитки\ (в дни)</item>
+        <item id="aff_cookie_expiration" lang="ro">Viața span-ului a cookie-ul clientului (zile)</item>
+        <item id="aff_cookie_expiration" lang="sl">Rok trajanja uporabniškega piškotka (dnevi)</item>
+        <item id="aff_cookie_expiration" lang="no">Levetid på kundens cookie (dager)</item>
+        <item id="aff_cookie_expiration" lang="da">Levetid for kundernes cookie (dage)</item>
+        <item id="aff_cookie_expiration" lang="fr">Durée de vie d'un cookie client (jours)</item>
+        <item id="aff_cookie_expiration" lang="es">Vida útil de la cookie del cliente(días)</item>
+
+        <item id="set_initial_balance" lang="en">Initial incentive balance</item>
+        <item id="set_initial_balance" lang="ru">Начальный поощрительный баланс</item>
+        <item id="set_initial_balance" lang="zh">初始动力平衡</item>
+        <item id="set_initial_balance" lang="it">Equilibrio incentivo iniziale</item>
+        <item id="set_initial_balance" lang="el">Αρχικό ερέθισμα υπολοίπου</item>
+        <item id="set_initial_balance" lang="bg">Първоначален промоционален баланс</item>
+        <item id="set_initial_balance" lang="ro">Balanța inițială de stimulare</item>
+        <item id="set_initial_balance" lang="sl">Prvotno spodbudno stanje računa</item>
+        <item id="set_initial_balance" lang="no">Initial belønningssaldo</item>
+        <item id="set_initial_balance" lang="da">Indledende incitament balance</item>
+        <item id="set_initial_balance" lang="fr">Définir le solde initial</item>
+
+        <item id="total_commissions" lang="en">Total commissions</item>
+        <item id="total_commissions" lang="ru">Итоговая комиссия</item>
+        <item id="total_commissions" lang="zh">总佣金</item>
+        <item id="total_commissions" lang="el">Σύνολο προμηθειών</item>
+        <item id="total_commissions" lang="bg">Общо комисионни</item>
+        <item id="total_commissions" lang="ro">Total comisioane</item>
+        <item id="total_commissions" lang="sl">Skupne provizije</item>
+        <item id="total_commissions" lang="no">Sum provisjoner</item>
+        <item id="total_commissions" lang="da">Total provision</item>
+        <item id="total_commissions" lang="es">Comisiones totales</item>
+
+        <item id="affiliate_add_payout" lang="en">Add payout</item>
+        <item id="affiliate_add_payout" lang="ru">Добавить выплату</item>
+        <item id="affiliate_add_payout" lang="zh">添加支付</item>
+        <item id="affiliate_add_payout" lang="it">Aggiungi payout</item>
+        <item id="affiliate_add_payout" lang="el">Προσθήκη πληρωμών</item>
+        <item id="affiliate_add_payout" lang="bg">Добави изплащане</item>
+        <item id="affiliate_add_payout" lang="ro">Adăugați o plată a compensațiilor</item>
+        <item id="affiliate_add_payout" lang="sl">Dodaj izplačilo</item>
+        <item id="affiliate_add_payout" lang="no">Legg til utbetaling</item>
+        <item id="affiliate_add_payout" lang="da">Tilføj Udbetaling</item>
+        <item id="affiliate_add_payout" lang="fr">Ajouter un versement</item>
+        <item id="affiliate_add_payout" lang="es">Añadir nueva liquidación de pago</item>
+
+        <item id="affiliate_add_plan" lang="en">Add plan</item>
+        <item id="affiliate_add_plan" lang="ru">Добавить план</item>
+        <item id="affiliate_add_plan" lang="zh">添加计划</item>
+        <item id="affiliate_add_plan" lang="it">Aggiungi piano</item>
+        <item id="affiliate_add_plan" lang="el">Προσθήκη Σχεδίου</item>
+        <item id="affiliate_add_plan" lang="bg">Добави план</item>
+        <item id="affiliate_add_plan" lang="ro">Adăugați un plan</item>
+        <item id="affiliate_add_plan" lang="sl">Dodaj načrt</item>
+        <item id="affiliate_add_plan" lang="no">Legg til Plan</item>
+        <item id="affiliate_add_plan" lang="da">Tilføj plan</item>
+        <item id="affiliate_add_plan" lang="fr">Ajouter un plan</item>
+
+        <item id="affiliate_new_group" lang="en">New group</item>
+        <item id="affiliate_new_group" lang="ru">Новая группа</item>
+        <item id="affiliate_new_group" lang="zh">新的组合</item>
+        <item id="affiliate_new_group" lang="it">Nuovo gruppo</item>
+        <item id="affiliate_new_group" lang="el">Νέα ομάδα</item>
+        <item id="affiliate_new_group" lang="bg">Нова група</item>
+        <item id="affiliate_new_group" lang="ro">Grup nou</item>
+        <item id="affiliate_new_group" lang="sl">Nova skupina</item>
+        <item id="affiliate_new_group" lang="no">Ny gruppe</item>
+        <item id="affiliate_new_group" lang="da">Ny grup</item>
+        <item id="affiliate_new_group" lang="fr">Nouveau groupe</item>
+
+        <item id="paidup" lang="en">Paid-up</item>
+        <item id="paidup" lang="ru">Оплачено</item>
+        <item id="paidup" lang="zh">已付的</item>
+        <item id="paidup" lang="it">Pagato in anticipo</item>
+        <item id="paidup" lang="el">Αποπληρωμένο</item>
+        <item id="paidup" lang="bg">Изплатен</item>
+        <item id="paidup" lang="ro">Plătit integral</item>
+        <item id="paidup" lang="sl">Poplačano</item>
+        <item id="paidup" lang="no">Innbetalt</item>
+        <item id="paidup" lang="da">Indbetalt</item>
+        <item id="paidup" lang="fr">Versé</item>
+        <item id="paidup" lang="es">Que ha pagado las cuotas</item>
+
+        <item id="chart_period" lang="en">Date range</item>
+        <item id="chart_period" lang="ru">Период времени</item>
+        <item id="chart_period" lang="zh">周期</item>
+        <item id="chart_period" lang="it">Range di date</item>
+        <item id="chart_period" lang="el">Εύρος ημερομηνιών</item>
+        <item id="chart_period" lang="bg">Период на графика</item>
+        <item id="chart_period" lang="ro">Perioada</item>
+        <item id="chart_period" lang="sl">Obseg podatkov</item>
+        <item id="chart_period" lang="no">Datointervall</item>
+        <item id="chart_period" lang="da">Datointerval</item>
+        <item id="chart_period" lang="fr">Intervalle de date</item>
+        <item id="chart_period" lang="es">rango de fechas</item>
+        <item id="chart_period" lang="nl">Datumperiode</item>
+        <item id="chart_period" lang="de">Zeitintervall</item>
 
         <item lang="en" id="aff_cant_create_group">Group cannot be modified</item>
         <item lang="en" id="aff_cant_create_banner">Banner cannot be modified</item>

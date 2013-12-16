@@ -97,7 +97,7 @@
 
 {capture name="buttons"}
     {if $runtime.mode == "add"}    
-        {include file="buttons/save_cancel.tpl" but_text=__("add_payout") hide_second_button=true but_name="dispatch[payouts.m_add_payouts]" but_role="submit-link" but_target_form="payout_`$user_id`_form"}
+        {include file="buttons/save_cancel.tpl" but_text=__("affiliate_add_payout") hide_second_button=true but_name="dispatch[payouts.m_add_payouts]" but_role="submit-link" but_target_form="payout_`$user_id`_form"}
     {/if}
     {if $runtime.mode != "add"}
         {include file="common/view_tools.tpl" url="payouts.update?payout_id="}

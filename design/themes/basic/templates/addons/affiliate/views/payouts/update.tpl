@@ -118,7 +118,7 @@
 
 {if $runtime.mode=="add"}
     <div class="buttons-container">
-    {include file="buttons/button.tpl" but_text=__("add_payout") but_name="dispatch[payouts.do_m_add_payouts]" but_meta="cm-process-items" but_role="action"}
+    {include file="buttons/button.tpl" but_text=__("affiliate_add_payout") but_name="dispatch[payouts.do_m_add_payouts]" but_meta="cm-process-items" but_role="action"}
     </div>
 </form>
 {/if}

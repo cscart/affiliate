@@ -70,7 +70,7 @@
         {/capture}
 
         {capture name="adv_buttons"}
-            {btn type="add" title=__("add_plan") href="affiliate_plans.add"}
+            {btn type="add" title=__("affiliate_add_plan") href="affiliate_plans.add"}
         {/capture}
 
         {capture name="buttons"}

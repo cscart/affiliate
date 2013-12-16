@@ -69,7 +69,7 @@
 {/capture}
 
 {if !$id}
-    {include file="common/mainbox.tpl" title=__("new_group") content=$smarty.capture.mainbox buttons=$smarty.capture.buttons}
+    {include file="common/mainbox.tpl" title=__("affiliate_new_group") content=$smarty.capture.mainbox buttons=$smarty.capture.buttons}
 {else}
     {capture name="tools"}
         {include file="common/tools.tpl" tool_href="product_groups.add?link_to=`$link_to`" prefix="top" link_text=$_link_text hide_tools=true}
